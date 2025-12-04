@@ -1,0 +1,100 @@
+.nav-link {
+    color: #141010 !important;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: rgb(255, 183, 0) !important;
+    transform: scale(1.03);
+}
+
+.bg-custom {
+    background-color: #fff;
+}
+
+.bg-custom-btn {
+    background-color: rgb(255, 183, 0);
+}
+
+.btn {
+    /* font-size: 20px; */
+    color: #fff;
+    font-weight: bold;
+}
+
+.btn:hover {
+    color: rgb(255, 183, 0) !important;
+    transform: scale(0.3s);
+}
+
+span {
+    color: rgb(226, 162, 0);
+}
+
+.rounded-hero {
+    background: #CBCBCB;
+    border-radius: 20px;
+    padding: 25px;
+
+    /* ukuran box agar kecil seperti contoh */
+    width: 80%;               /* bisa diganti 80%, 70% sesuai selera */
+    max-width: 1000px;        /* batas maksimal agar tidak terlalu lebar */
+}
+
+/* gambar di dalam */
+.hero-image {
+   width: 100%;
+   max-height: 420px;
+   display: block;
+   margin-top: 20px;
+}
+
+.rounded-hero h2 {
+    font-size: 50px;
+    font-weight: bold;
+    /* color: #fff; */
+}
+
+.rounded-hero p {
+    color: #030303;
+    font-size: 20px;
+    /* font-weight: bold; */
+}
+
+.testimonial-card {
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 25px rgba(0,0,0,0.05);
+}
+
+.user-img {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Tombol slider */
+.nav-btn {
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: white;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.slider-prev { left: -20px; }
+.slider-next { right: -20px; }
+
+.nav-btn i {
+    font-size: 22px;
+}
