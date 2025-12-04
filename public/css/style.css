@@ -63,7 +63,7 @@ span {
 }
 
 .testimonial-card {
-    background: white;
+    background: #0000;
     border-radius: 20px;
     box-shadow: 0 4px 25px rgba(0,0,0,0.05);
 }
@@ -83,7 +83,7 @@ span {
     width: 45px;
     height: 45px;
     border-radius: 50%;
-    background: white;
+    background: #030303;
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
     display: flex;
     justify-content: center;
