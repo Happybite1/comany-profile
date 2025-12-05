@@ -38,7 +38,7 @@
                     </div>
 
                     <div class="py-3 mt-3">
-                            <div class="rounded-hero shadow-sm text-left mx-auto">
+                            <div class="card rounded-hero shadow-sm text-left mx-auto p-3 p-md-4">
                                 <h2 class="fw-bold fs-3 fs-md-2 fs-lg-1">100.000+</h2>
                                 <p class="fs-6 fs-md-4">Orang Telah Mengikuti Pelatihan Ini</p>
 
