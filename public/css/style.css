@@ -28,47 +28,6 @@
     transform: scale(0.3s);
 }
 
-/* Logo hanya muncul saat mobile */
-.mobile-logo img {
-  width: 120px;
-}
-
-/* Jarak kiri agar menu tidak mentok */
-@media (max-width: 991px) {
-  .custom-mobile-menu .nav-link {
-    padding-left: 20px;     /* Geser agak ke kanan */
-    font-size: 1.2rem;
-    font-weight: 600;
-  }
-
-  .custom-mobile-menu {
-    padding-top: 20px;
-  }
-}
-
-/* MOBILE – card turun + gambar lebih besar */
-@media (max-width: 576px) {
-
-  .rounded-hero {
-    margin-top: 60px !important;   /* card sedikit turun */
-    padding: 20px !important;      /* padding lebih kecil agar muat */
-  }
-
-  .rounded-hero h2 {
-    font-size: 38px !important;    /* ukuran pas di HP */
-  }
-
-  .rounded-hero p {
-    font-size: 18px !important;    /* teks proporsional */
-  }
-
-  .hero-image {
-    width: 100% !important;        /* gambar tidak mengecil */
-    height: auto !important;
-    margin-top: 15px !important;
-  }
-}
-
 span {
     color: rgb(226, 162, 0);
 }
@@ -138,37 +97,4 @@ span {
 
 .nav-btn i {
     font-size: 22px;
-}
-
-/* Bootstrap 5 - Navbar full-width + left spacing overrides */
-/* Jika markup menggunakan .container atau .container-fluid di dalam .navbar */
-.navbar {
-    width: 100%;
-    box-sizing: border-box;
-}
-.navbar .container,
-.navbar .container-fluid {
-    max-width: 100% !important; /* pastikan kontainer navbar melebar */
-    padding-left: 12px;         /* jarak kiri kecil agar tidak mentok */
-    padding-right: 12px;
-}
-
-/* Sedikit offset untuk brand / nav agar terlihat rapi */
-.navbar .navbar-brand {
-    margin-left: 4px;
-}
-.navbar .navbar-nav {
-    margin-left: 8px;
-}
-
-@media (max-width: 991px) {
-  .navbar .container,
-  .navbar .container-fluid {
-    padding-left: 20px; /* lebih lega di mobile */
-  }
-
-  /* menjaga aturan custom-mobile-menu bila masih digunakan */
-  .custom-mobile-menu .nav-link {
-    padding-left: 20px;
-  }
 }
