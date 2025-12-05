@@ -28,13 +28,13 @@
             <div class="container py-3 position-relative" style="z-index: 2;">
                 <div class="row">
                     <div class="col-sm-8">
-                        <h1 class="display-6 fw-bold">Berhasil Profit 200% dari Berbisnis Properti! <span>Temukan Strategi nya!</span></h1>
+                        <h1 class="display-5 fw-bold">Berhasil Profit 200% dari Berbisnis Properti! <span>Temukan Strategi nya!</span></h1>
                         <p class="fs-6 lh-lg text-muted mb-4">Komunitas properti eksklusif, belajar langsung dari pelaku lapangan yang sudah buktiin sendiri strategi cuan properti — bukan teori doang!</p>
 
                         <img src="img/line1.png" alt="" class="d-block" style="display:block; width:80%; height:20px;">
 
-                        <a href="" class="btn btn-dark btn-lg rounded-0 mt-4 p-3">Learn More</a>
-                        <a href="" class="btn btn-dark btn-lg rounded-pill mt-4 ml-5 p-3">Our Program</a>
+                        <a href="" class="btn btn-dark btn-sm rounded-0 mt-4 p-0">Learn More</a>
+                        <a href="" class="btn btn-dark btn-sm rounded-pill mt-4 ms-3 p-0">Our Program</a>
                     </div>
 
                     <div class="py-3 mt-3">
@@ -51,7 +51,7 @@
 
         <section class="py-5 mt-5 pt-5">
             <div class="container text-center mb-5">
-                <h2 class="fw-bold display-6">Rating Tertinggi di Business&Properti</h2>
+                <h2 class="fw-bold display-6">Rating Tertinggi di Business & Properti</h2>
             </div>
 
             <div class="container position-relative">
