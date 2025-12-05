@@ -139,3 +139,36 @@ span {
 .nav-btn i {
     font-size: 22px;
 }
+
+/* Bootstrap 5 - Navbar full-width + left spacing overrides */
+/* Jika markup menggunakan .container atau .container-fluid di dalam .navbar */
+.navbar {
+    width: 100%;
+    box-sizing: border-box;
+}
+.navbar .container,
+.navbar .container-fluid {
+    max-width: 100% !important; /* pastikan kontainer navbar melebar */
+    padding-left: 12px;         /* jarak kiri kecil agar tidak mentok */
+    padding-right: 12px;
+}
+
+/* Sedikit offset untuk brand / nav agar terlihat rapi */
+.navbar .navbar-brand {
+    margin-left: 4px;
+}
+.navbar .navbar-nav {
+    margin-left: 8px;
+}
+
+@media (max-width: 991px) {
+  .navbar .container,
+  .navbar .container-fluid {
+    padding-left: 20px; /* lebih lega di mobile */
+  }
+
+  /* menjaga aturan custom-mobile-menu bila masih digunakan */
+  .custom-mobile-menu .nav-link {
+    padding-left: 20px;
+  }
+}

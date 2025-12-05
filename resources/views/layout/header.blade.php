@@ -9,7 +9,7 @@
     </button>
 
     <div class="collapse navbar-collapse custom-mobile-menu" id="navigasi">
-      <div class="mobile-logo d-lg-none text-center mb-4">
+      <div class="mobile-logo d-lg-none text-left mb-4">
         <img src="/img/logo.png" alt="Logo" width="120">
       </div>
 
