@@ -38,7 +38,7 @@ span {
     padding: 25px;
 
     /* ukuran box agar kecil seperti contoh */
-    width: 80%;               /* bisa diganti 80%, 70% sesuai selera */
+    width: 70%;               /* bisa diganti 80%, 70% sesuai selera */
     max-width: 1000px;        /* batas maksimal agar tidak terlalu lebar */
 }
 
