@@ -8,7 +8,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="navigasi">    
+    <div class="collapse navbar-collapse mobile-full" id="navigasi">    
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
         <li class="nav-item"><a href="{{ route('main') }}" class="nav-link">Home</a></li>
         <li class="nav-item"><a href="{{ route('about') }}" class="nav-link">About Us</a></li>
