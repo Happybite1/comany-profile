@@ -33,8 +33,8 @@
 
                         <img src="img/line1.png" alt="" class="d-block" style="display:block; width:80%; height:20px;">
 
-                        <a href="" class="btn btn-dark btn-sm rounded-0 mt-4 p-0">Learn More</a>
-                        <a href="" class="btn btn-dark btn-sm rounded-pill mt-4 ms-3 p-0">Our Program</a>
+                        <a href="" class="btn btn-dark btn-sm rounded-0 mt-4">Learn More</a>
+                        <a href="" class="btn btn-dark btn-sm rounded-pill mt-4 ms-3">Our Program</a>
                     </div>
 
                     <div class="py-3 mt-3">
