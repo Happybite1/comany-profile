@@ -38,9 +38,9 @@
                     </div>
 
                     <div class="py-3 mt-3">
-                            <div class="rounded-hero text-left mx-auto">
-                                <h2 class="fw-bold fs-1 fs-md-2 fs-lg-1">100.000+</h2>
-                                <p class="fs-5 fs-md-4">Orang Telah Mengikuti Pelatihan Ini</p>
+                            <div class="rounded-hero shadow-sm text-left mx-auto">
+                                <h2 class="fw-bold fs-3 fs-md-2 fs-lg-1">100.000+</h2>
+                                <p class="fs-6 fs-md-4">Orang Telah Mengikuti Pelatihan Ini</p>
 
                                 <img src="img/ws-2.jpg" class="img-fluid hero-image">
                             </div>
