@@ -28,20 +28,46 @@
     transform: scale(0.3s);
 }
 
+/* Logo hanya muncul saat mobile */
+.mobile-logo img {
+  width: 120px;
+}
+
+/* Jarak kiri agar menu tidak mentok */
 @media (max-width: 991px) {
-  .mobile-full {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh; 
-    background: white; 
-    padding-top: 80px;
-    overflow-y: auto;
-    z-index: 9999;
+  .custom-mobile-menu .nav-link {
+    padding-left: 20px;     /* Geser agak ke kanan */
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+
+  .custom-mobile-menu {
+    padding-top: 20px;
   }
 }
 
+/* MOBILE – card turun + gambar lebih besar */
+@media (max-width: 576px) {
+
+  .rounded-hero {
+    margin-top: 60px !important;   /* card sedikit turun */
+    padding: 20px !important;      /* padding lebih kecil agar muat */
+  }
+
+  .rounded-hero h2 {
+    font-size: 38px !important;    /* ukuran pas di HP */
+  }
+
+  .rounded-hero p {
+    font-size: 18px !important;    /* teks proporsional */
+  }
+
+  .hero-image {
+    width: 100% !important;        /* gambar tidak mengecil */
+    height: auto !important;
+    margin-top: 15px !important;
+  }
+}
 
 span {
     color: rgb(226, 162, 0);
