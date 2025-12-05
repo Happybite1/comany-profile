@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-custom">
   <div class="container">
     <a class="navbar-brand d-flex align-items-center me-3" href="#">
-      <img src="/img/logo-TP.png" alt="" width="100" height="50" class="d-inline-block align-text-top">
+      <img src="/img/logo.png" alt="" width="100" height="50" class="d-inline-block align-text-top">
     </a>
 
     <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navigasi">
