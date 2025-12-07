@@ -92,12 +92,12 @@ span {
 /* ==== POSISI TOMBOL SLIDER ==== */
 .nav-btn {
     position: absolute;
-    top: -30px;                 /* tombol naik ke atas, tidak menutupi card */
-    width: 35px;                /* ukuran tombol diperkecil */
-    height: 35px;
+    top: 50%;                      /* posisi vertikal di tengah swiper */
+    transform: translateY(-50%);   /* benar-benar center */
+    width: 45px;
+    height: 45px;
     border-radius: 50%;
-    background: #000;           
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    background: #000;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -105,13 +105,12 @@ span {
     cursor: pointer;
 }
 
-/* Tombol kiri & kanan */
-.slider-prev { left: 20px; }
-.slider-next { right: 20px; }
+.slider-prev { left: -10px; }      /* geser ke kiri */
+.slider-next { right: -10px; }     /* geser ke kanan */
 
 .nav-btn i {
-    font-size: 18px;            /* ikon lebih kecil */
     color: white;
+    font-size: 20px;
 }
 
 /* ==== CENTER SECTION TESTIMONI ==== */
