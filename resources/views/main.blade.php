@@ -126,6 +126,96 @@
                                 </p>
                             </div>
                         </div>
+                        <!-- CARD 4 -->
+                        <div class="swiper-slide">
+                            <div class="testimonial-card p-4">
+                                <div class="d-flex align-items-center mb-3">
+                                    <img src="img/user3.jpg" class="user-img me-3">
+                                    <div>
+                                        <h6 class="fw-bold m-0">Armand Ramadhan</h6>
+                                        <small class="text-muted">2 years ago</small>
+                                    </div>
+                                </div>
+
+                                <div class="text-warning mb-3">★★★★★</div>
+
+                                <p class="text-muted">
+                                    It was super fun yet the most insightful program I’ve ever joined so far.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-card p-4">
+                                <div class="d-flex align-items-center mb-3">
+                                    <img src="img/user3.jpg" class="user-img me-3">
+                                    <div>
+                                        <h6 class="fw-bold m-0">Armand Ramadhan</h6>
+                                        <small class="text-muted">2 years ago</small>
+                                    </div>
+                                </div>
+
+                                <div class="text-warning mb-3">★★★★★</div>
+
+                                <p class="text-muted">
+                                    It was super fun yet the most insightful program I’ve ever joined so far.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-card p-4">
+                                <div class="d-flex align-items-center mb-3">
+                                    <img src="img/user3.jpg" class="user-img me-3">
+                                    <div>
+                                        <h6 class="fw-bold m-0">Armand Ramadhan</h6>
+                                        <small class="text-muted">2 years ago</small>
+                                    </div>
+                                </div>
+
+                                <div class="text-warning mb-3">★★★★★</div>
+
+                                <p class="text-muted">
+                                    It was super fun yet the most insightful program I’ve ever joined so far.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-card p-4">
+                                <div class="d-flex align-items-center mb-3">
+                                    <img src="img/user3.jpg" class="user-img me-3">
+                                    <div>
+                                        <h6 class="fw-bold m-0">Armand Ramadhan</h6>
+                                        <small class="text-muted">2 years ago</small>
+                                    </div>
+                                </div>
+
+                                <div class="text-warning mb-3">★★★★★</div>
+
+                                <p class="text-muted">
+                                    It was super fun yet the most insightful program I’ve ever joined so far.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="swiper-slide">
+                            <div class="testimonial-card p-4">
+                                <div class="d-flex align-items-center mb-3">
+                                    <img src="img/user3.jpg" class="user-img me-3">
+                                    <div>
+                                        <h6 class="fw-bold m-0">Armand Ramadhan</h6>
+                                        <small class="text-muted">2 years ago</small>
+                                    </div>
+                                </div>
+
+                                <div class="text-warning mb-3">★★★★★</div>
+
+                                <p class="text-muted">
+                                    It was super fun yet the most insightful program I’ve ever joined so far.
+                                </p>
+                            </div>
+                        </div>
 
                     </div>
                 </div>
