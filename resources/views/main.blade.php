@@ -142,14 +142,21 @@
 
     <script>
     var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 1,
-        spaceBetween: 30,
-        loop: true,
-        navigation: {
-            nextEl: ".slider-next",
-            prevEl: ".slider-prev",
+    slidesPerView: 1,
+    spaceBetween: 20,
+    navigation: {
+        nextEl: ".slider-next",
+        prevEl: ".slider-prev",
+    },
+    breakpoints: {
+        768: {
+            slidesPerView: 2       // tablet: tampil 2
         },
-    });
+        992: {
+            slidesPerView: 3       // laptop/desktop: tampil 3
+        }
+    }
+});
 </script>
 </body>
 </html>
