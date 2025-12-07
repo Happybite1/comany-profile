@@ -125,7 +125,7 @@ span {
 }
 
 .testimonial-card {
-    background: #ffffff;   /* putih */
+    background: #CBCBCB;   /* putih */
     border-radius: 20px;
     box-shadow: 0 4px 25px rgba(0,0,0,0.05);
 }
@@ -145,6 +145,56 @@ span {
 }
 .testimonial-card span {
     color: rgb(255, 183, 0);
+}
+
+/* Highlight kuning seperti Aksoro */
+.highlight {
+    background: #ffeb3b;
+    padding: 3px 8px;
+}
+
+/* Card styling */
+.expert-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 30px;
+    background: #1b1b1b;
+    height: 460px;
+}
+
+.expert-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+}
+
+.expert-overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(to bottom, transparent, rgba(0,0,0,0.9));
+}
+
+.expert-text {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    right: 25px;
+    color: white;
+}
+
+.expert-text h5 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.expert-text p {
+    margin: 5px 0 0;
+    font-size: 0.9rem;
+    opacity: 0.9;
 }
 
 @media (max-width: 768px) {

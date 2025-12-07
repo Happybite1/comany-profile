@@ -198,7 +198,7 @@
                                 </p>
                             </div>
                         </div>
-                        
+
                         <div class="swiper-slide">
                             <div class="testimonial-card p-4">
                                 <div class="d-flex align-items-center mb-3">
@@ -223,6 +223,56 @@
             </div>
         </section>
 
+        <section class="py-5" style="background: #f7f4e8;">
+            <div class="container text-center mb-5">
+                <h1 class="fw-bold display-5">
+                    Kami Mengumpulkan Orang-Orang Hebat Untuk Membuka <br>
+                    Pada Anda <span class="highlight">Cara Main di Level Berikutnya!</span>
+                </h1>
+            </div>
+
+            <div class="container">
+                <div class="row g-4 justify-content-center">
+
+                    <!-- Card 1 -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="expert-card">
+                            <img src="img/expert1.jpg" class="expert-img" alt="">
+                            <div class="expert-overlay"></div>
+                            <div class="expert-text">
+                                <h5>BUDI ISMAN</h5>
+                                <p>DIREKTUR SARI HUSADA (SGM) 2005—2009, GURU BISNIS, ANGEL INVESTOR</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="expert-card">
+                            <img src="img/expert2.jpg" class="expert-img" alt="">
+                            <div class="expert-overlay"></div>
+                            <div class="expert-text">
+                                <h5>VIDJONGTIUS</h5>
+                                <p>FORMER CEO & CHAIRMAN PT KALBE FARMA TBK</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="expert-card">
+                            <img src="img/expert3.jpg" class="expert-img" alt="">
+                            <div class="expert-overlay"></div>
+                            <div class="expert-text">
+                                <h5>IGNASIUS JONAN</h5>
+                                <p>CEO PT KAI 2009—2014</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
 
     </div>
 
