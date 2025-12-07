@@ -197,6 +197,15 @@ span {
     opacity: 0.9;
 }
 
+.founderSwiper {
+    padding-bottom: 40px;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+}
+
 @media (max-width: 768px) {
     .nav-btn {
         display: none !important;

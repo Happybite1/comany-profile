@@ -231,70 +231,82 @@
                 </h1>
             </div>
 
-            <div class="container">
-                <div class="row g-4 justify-content-center">
+            <div class="container position-relative">
 
-                    <!-- Card 1 -->
-                    <div class="col-lg-4 col-md-6">
-                        <div class="expert-card">
-                            <img src="img/pak-dimas.png" class="expert-img" alt="">
-                            <div class="expert-overlay"></div>
-                            <div class="expert-text">
-                                <h5>BUDI ISMAN</h5>
-                                <p>DIREKTUR SARI HUSADA (SGM) 2005—2009, GURU BISNIS, ANGEL INVESTOR</p>
+                <!-- Swiper -->
+                <div class="swiper founderSwiper">
+                    <div class="swiper-wrapper">
+
+                        <!-- Slide 1 -->
+                        <div class="swiper-slide">
+                            <div class="expert-card">
+                                <img src="img/pak-dimas.png" class="expert-img" alt="">
+                                <div class="expert-overlay"></div>
+                                <div class="expert-text">
+                                    <h5>BUDI ISMAN</h5>
+                                    <p>DIREKTUR SARI HUSADA (SGM) 2005—2009, GURU BISNIS, ANGEL INVESTOR</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <!-- Card 2 -->
-                    <div class="col-lg-4 col-md-6">
-                        <div class="expert-card">
-                            <img src="img/pak-resaa.png" class="expert-img" alt="">
-                            <div class="expert-overlay"></div>
-                            <div class="expert-text">
-                                <h5>VIDJONGTIUS</h5>
-                                <p>FORMER CEO & CHAIRMAN PT KALBE FARMA TBK</p>
+                        <!-- Slide 2 -->
+                        <div class="swiper-slide">
+                            <div class="expert-card">
+                                <img src="img/pak-resaa.png" class="expert-img" alt="">
+                                <div class="expert-overlay"></div>
+                                <div class="expert-text">
+                                    <h5>VIDJONGTIUS</h5>
+                                    <p>FORMER CEO & CHAIRMAN PT KALBE FARMA TBK</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <!-- Card 3 -->
-                    <div class="col-lg-4 col-md-6">
-                        <div class="expert-card">
-                            <img src="img/pak-stephanus.png" class="expert-img" alt="">
-                            <div class="expert-overlay"></div>
-                            <div class="expert-text">
-                                <h5>IGNASIUS JONAN</h5>
-                                <p>CEO PT KAI 2009—2014</p>
+                        <!-- Slide 3 -->
+                        <div class="swiper-slide">
+                            <div class="expert-card">
+                                <img src="img/pak-stephanus.png" class="expert-img" alt="">
+                                <div class="expert-overlay"></div>
+                                <div class="expert-text">
+                                    <h5>IGNASIUS JONAN</h5>
+                                    <p>CEO PT KAI 2009—2014</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="col-lg-4 col-md-6">
-                        <div class="expert-card">
-                            <img src="img/pak-theo.png" class="expert-img" alt="">
-                            <div class="expert-overlay"></div>
-                            <div class="expert-text">
-                                <h5>IGNASIUS JONAN</h5>
-                                <p>CEO PT KAI 2009—2014</p>
+                        <!-- Slide 4 -->
+                        <div class="swiper-slide">
+                            <div class="expert-card">
+                                <img src="img/pak-theo.png" class="expert-img" alt="">
+                                <div class="expert-overlay"></div>
+                                <div class="expert-text">
+                                    <h5>THEO</h5>
+                                    <p>ANGEL INVESTOR & BUSINESS ADVISOR</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="col-lg-4 col-md-6">
-                        <div class="expert-card">
-                            <img src="img/pak-vian.png" class="expert-img" alt="">
-                            <div class="expert-overlay"></div>
-                            <div class="expert-text">
-                                <h5>IGNASIUS JONAN</h5>
-                                <p>CEO PT KAI 2009—2014</p>
+                        <!-- Slide 5 -->
+                        <div class="swiper-slide">
+                            <div class="expert-card">
+                                <img src="img/pak-vian.png" class="expert-img" alt="">
+                                <div class="expert-overlay"></div>
+                                <div class="expert-text">
+                                    <h5>VIAN</h5>
+                                    <p>FOUNDER, ENTREPRENEUR</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
+                    </div>
                 </div>
+
+                <!-- Arrow Navigation -->
+                <div class="nav-btn slider-prev"><i class="bi bi-chevron-left"></i></div>
+                <div class="nav-btn slider-next"><i class="bi bi-chevron-right"></i></div>
+
             </div>
         </section>
+
 
     </div>
 
@@ -302,5 +314,31 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="js/swiper.js"></script>
+
+    <script>
+    var swiper = new Swiper(".founderSwiper", {
+        loop: true,
+        autoplay: {
+            delay: 5000, // 5 detik
+            disableOnInteraction: false,
+        },
+        slidesPerView: 1,
+        spaceBetween: 20,
+
+        breakpoints: {
+            768: {
+                slidesPerView: 2,
+            },
+            992: {
+                slidesPerView: 3, // tampilan besar = 3 founder
+            }
+        },
+
+        navigation: {
+            nextEl: ".slider-next",
+            prevEl: ".slider-prev",
+        }
+    });
+</script>
 </body>
 </html>
