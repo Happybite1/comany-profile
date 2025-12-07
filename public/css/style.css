@@ -149,7 +149,7 @@ span {
 
 /* Highlight kuning seperti Aksoro */
 .highlight {
-    background: #ffeb3b;
+    /* background: #ffeb3b; */
     padding: 3px 8px;
 }
 

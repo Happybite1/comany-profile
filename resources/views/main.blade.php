@@ -237,7 +237,7 @@
                     <!-- Card 1 -->
                     <div class="col-lg-4 col-md-6">
                         <div class="expert-card">
-                            <img src="img/expert1.jpg" class="expert-img" alt="">
+                            <img src="img/pak-dimas.png" class="expert-img" alt="">
                             <div class="expert-overlay"></div>
                             <div class="expert-text">
                                 <h5>BUDI ISMAN</h5>
@@ -249,7 +249,7 @@
                     <!-- Card 2 -->
                     <div class="col-lg-4 col-md-6">
                         <div class="expert-card">
-                            <img src="img/expert2.jpg" class="expert-img" alt="">
+                            <img src="img/pak-resaa.png" class="expert-img" alt="">
                             <div class="expert-overlay"></div>
                             <div class="expert-text">
                                 <h5>VIDJONGTIUS</h5>
@@ -261,7 +261,29 @@
                     <!-- Card 3 -->
                     <div class="col-lg-4 col-md-6">
                         <div class="expert-card">
-                            <img src="img/expert3.jpg" class="expert-img" alt="">
+                            <img src="img/pak-stephanus.png" class="expert-img" alt="">
+                            <div class="expert-overlay"></div>
+                            <div class="expert-text">
+                                <h5>IGNASIUS JONAN</h5>
+                                <p>CEO PT KAI 2009—2014</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="expert-card">
+                            <img src="img/pak-theo.png" class="expert-img" alt="">
+                            <div class="expert-overlay"></div>
+                            <div class="expert-text">
+                                <h5>IGNASIUS JONAN</h5>
+                                <p>CEO PT KAI 2009—2014</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="expert-card">
+                            <img src="img/pak-vian.png" class="expert-img" alt="">
                             <div class="expert-overlay"></div>
                             <div class="expert-text">
                                 <h5>IGNASIUS JONAN</h5>
