@@ -75,11 +75,11 @@ span {
     /* font-weight: bold; */
 }
 
-.testimonial-card {
+/* .testimonial-card { */
     background: #0000;
     border-radius: 20px;
     box-shadow: 0 4px 25px rgba(0,0,0,0.05);
-}
+/* } */
 
 .user-img {
     width: 55px;
@@ -125,9 +125,16 @@ span {
 }
 
 .testimonial-card {
+    background: #ffffff;   /* putih */
+    border-radius: 20px;
+    box-shadow: 0 4px 25px rgba(0,0,0,0.05);
+}
+
+/* .testimonial-card {
     max-width: 350px;            /* biar rapi dan rata tengah */
     margin: 0 auto;
-}
+/* } */
+
 .testimonial-card p {
     font-size: 16px;
     color: #141010;
