@@ -91,28 +91,28 @@ span {
 /* Tombol slider */
 /* ==== POSISI TOMBOL SLIDER ==== */
 .nav-btn {
-    position: absolute;
-    top: 50%;                      /* posisi vertikal di tengah swiper */
-    transform: translateY(-50%);   /* benar-benar center */
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
-    background: #000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 10;
-    cursor: pointer;
-}
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        background: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        z-index: 10;
+    }
 
-.slider-prev { left: -10px; }      /* geser ke kiri */
-.slider-next { right: -10px; }     /* geser ke kanan */
+    .slider-prev { left: -20px; }
+    .slider-next { right: -20px; }
 
-.nav-btn i {
-    color: white;
-    font-size: 20px;
-}
-
+    .nav-btn i {
+        font-size: 20px;
+        color: #fff;
+    }
+    
 /* ==== CENTER SECTION TESTIMONI ==== */
 .mySwiper {
     padding-left: 10px;
@@ -138,4 +138,10 @@ span {
 }
 .testimonial-card span {
     color: rgb(255, 183, 0);
+}
+
+@media (max-width: 768px) {
+    .nav-btn {
+        display: none !important;
+    }
 }

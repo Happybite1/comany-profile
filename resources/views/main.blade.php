@@ -139,24 +139,6 @@
     <!-- JS Bootstrap Wajib untuk Dropdown -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-    <script>
-    var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 1,
-    spaceBetween: 20,
-    navigation: {
-        nextEl: ".slider-next",
-        prevEl: ".slider-prev",
-    },
-    breakpoints: {
-        768: {
-            slidesPerView: 2       // tablet: tampil 2
-        },
-        992: {
-            slidesPerView: 3       // laptop/desktop: tampil 3
-        }
-    }
-});
-</script>
+    <script src="js/swiper.js"></script>
 </body>
 </html>
