@@ -155,18 +155,16 @@ span {
 
 /* Card styling */
 .expert-card {
+    aspect-ratio: 3 / 4;   /* portrait card */
+    border-radius: 30px;
     position: relative;
     overflow: hidden;
-    border-radius: 30px;
-    background: #1b1b1b;
-    height: 460px;
 }
 
 .expert-img {
     width: 100%;
-    height: auto;
+    height: 100%;
     object-fit: cover;
-    object-position: top center;
 }
 
 .expert-overlay {
