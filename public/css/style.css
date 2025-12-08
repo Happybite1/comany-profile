@@ -97,7 +97,7 @@ span {
         width: 45px;
         height: 45px;
         border-radius: 50%;
-        background: #000;
+        /* background: #000; */
         display: flex;
         justify-content: center;
         align-items: center;
@@ -132,7 +132,7 @@ span {
 
 /* .testimonial-card {
     max-width: 350px;            /* biar rapi dan rata tengah */
-    margin: 0 auto;
+    /* margin: 0 auto; */
 /* } */
 
 .testimonial-card p {
