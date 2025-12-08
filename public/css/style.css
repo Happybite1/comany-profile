@@ -155,7 +155,7 @@ span {
 
 /* Card styling */
 .expert-card {
-    aspect-ratio: 3 / 4;   /* portrait card */
+    /* aspect-ratio: 3 / 4;   portrait card */
     border-radius: 30px;
     position: relative;
     overflow: hidden;
