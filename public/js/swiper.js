@@ -35,3 +35,20 @@ function initSwiper() {
 
 window.addEventListener("load", initSwiper);
 window.addEventListener("resize", initSwiper);
+
+var founderSwiper = new Swiper(".founderSwiper", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    loop: true,
+
+    navigation: {
+        nextEl: ".founder-next",
+        prevEl: ".founder-prev",
+    },
+
+    breakpoints: {
+        0: { slidesPerView: 1.3, spaceBetween: 10 },
+        576: { slidesPerView: 2, spaceBetween: 20 },
+        992: { slidesPerView: 3, spaceBetween: 30 }
+    }
+});

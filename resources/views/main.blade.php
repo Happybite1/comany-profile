@@ -15,21 +15,13 @@
     @include('layout.header')
     
     <div class="container-fluid">
+    <section class="text-black position-relative home-hero" id="home">
 
-        <section class="text-black bg-custom position-relative" id="home"
-            style="
-                background: url('img/background.png') no-repeat center center/cover;
-                height: 125vh;                Full layar */
-                display: flex;
-                align-items: center;           /* Teks di tengah vertikal */
-                position: relative;
-            "
-        >
 
             <div class="container py-3 position-relative" style="z-index: 2;">
                 <div class="row">
                     <div class="col-sm-8">
-                        <h1 class="display-5 fw-bold">Berhasil Profit 200% dari Berbisnis Properti! <span>Temukan Strategi nya!</span></h1>
+                        <h1 class="display-9 fw-bold">Berhasil Profit 200% dari Berbisnis Properti! <span>Temukan Strategi nya!</span></h1>
                         <p class="fs-6 lh-lg text-muted mb-4">Komunitas properti eksklusif, belajar langsung dari pelaku lapangan yang sudah buktiin sendiri strategi cuan properti — bukan teori doang!</p>
 
                         <img src="img/line1.png" alt="" class="d-block" style="display:block; width:80%; height:20px;">
@@ -241,11 +233,11 @@
                         <!-- Slide 1 -->
                         <div class="swiper-slide">
                             <div class="expert-card">
-                                <img src="img/pak-dimas.png" class="expert-img" alt="">
+                                <img src="img/159.png" class="expert-img" alt="">
                                 <div class="expert-overlay"></div>
                                 <div class="expert-text">
-                                    <h5>BUDI ISMAN</h5>
-                                    <p>DIREKTUR SARI HUSADA (SGM) 2005—2009, GURU BISNIS, ANGEL INVESTOR</p>
+                                    <h5>VIAN KUMARA</h5>
+                                    <p>Marketing Performance in Property Selama 12 Tahun</p>
                                 </div>
                             </div>
                         </div>
@@ -253,11 +245,11 @@
                         <!-- Slide 2 -->
                         <div class="swiper-slide">
                             <div class="expert-card">
-                                <img src="img/pak-resaa.png" class="expert-img" alt="">
+                                <img src="img/160.png" class="expert-img" alt="">
                                 <div class="expert-overlay"></div>
                                 <div class="expert-text">
-                                    <h5>VIDJONGTIUS</h5>
-                                    <p>FORMER CEO & CHAIRMAN PT KALBE FARMA TBK</p>
+                                    <h5>Dimas Dwi Ananto</h5>
+                                    <p>Praktisi Lelang Properti No.1 di Indonesia.</p>
                                 </div>
                             </div>
                         </div>
@@ -265,11 +257,11 @@
                         <!-- Slide 3 -->
                         <div class="swiper-slide">
                             <div class="expert-card">
-                                <img src="img/pak-stephanus.png" class="expert-img" alt="">
+                                <img src="img/161.png" class="expert-img" alt="">
                                 <div class="expert-overlay"></div>
                                 <div class="expert-text">
-                                    <h5>IGNASIUS JONAN</h5>
-                                    <p>CEO PT KAI 2009—2014</p>
+                                    <h5>Theo Ariandyen</h5>
+                                    <p>CO-FOUNDER & COO Beresin Pajak Praktisi Perpajakan Selama 15 Tahun</p>
                                 </div>
                             </div>
                         </div>
@@ -277,11 +269,11 @@
                         <!-- Slide 4 -->
                         <div class="swiper-slide">
                             <div class="expert-card">
-                                <img src="img/pak-theo.png" class="expert-img" alt="">
+                                <img src="img/162.png" class="expert-img" alt="">
                                 <div class="expert-overlay"></div>
                                 <div class="expert-text">
-                                    <h5>THEO</h5>
-                                    <p>ANGEL INVESTOR & BUSINESS ADVISOR</p>
+                                    <h5>Stephanus P H A S</h5>
+                                    <p>Founder My Profit Solution Praktisi Saham Bisnis Selama 15 Tahun</p>
                                 </div>
                             </div>
                         </div>
@@ -289,21 +281,20 @@
                         <!-- Slide 5 -->
                         <div class="swiper-slide">
                             <div class="expert-card">
-                                <img src="img/pak-vian.png" class="expert-img" alt="">
+                                <img src="img/163.png" class="expert-img" alt="">
                                 <div class="expert-overlay"></div>
                                 <div class="expert-text">
-                                    <h5>VIAN</h5>
-                                    <p>FOUNDER, ENTREPRENEUR</p>
+                                    <h5>Rhesa Yogaswara</h5>
+                                    <p>Senior Associate - LBP Enterprises (Investment & Diversified Company)</p>
                                 </div>
                             </div>
                         </div>
-
-                    </div>
+                    </div>  
                 </div>
 
                 <!-- Arrow Navigation -->
-                <div class="nav-btn slider-prev"><i class="bi bi-chevron-left"></i></div>
-                <div class="nav-btn slider-next"><i class="bi bi-chevron-right"></i></div>
+                <div class="nav-btn founder-prev"><i class="bi bi-chevron-left"></i></div>
+                <div class="nav-btn founder-next"><i class="bi bi-chevron-right"></i></div>
 
             </div>
         </section>
@@ -315,31 +306,5 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="js/swiper.js"></script>
-
-    <script>
-    var swiper = new Swiper(".founderSwiper", {
-        loop: true,
-        autoplay: {
-            delay: 5000, // 5 detik
-            disableOnInteraction: false,
-        },
-        slidesPerView: 1,
-        spaceBetween: 20,
-
-        breakpoints: {
-            768: {
-                slidesPerView: 2,
-            },
-            992: {
-                slidesPerView: 3, // tampilan besar = 3 founder
-            }
-        },
-
-        navigation: {
-            nextEl: ".slider-next",
-            prevEl: ".slider-prev",
-        }
-    });
-</script>
 </body>
 </html>
