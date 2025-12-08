@@ -97,7 +97,7 @@ span {
         width: 45px;
         height: 45px;
         border-radius: 50%;
-        /* background: #000; */
+        background: #cbcbcb;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -210,4 +210,25 @@ span {
     .nav-btn {
         display: none !important;
     }
-}
+
+    .mySwiper .swiper-wrapper {
+        display: flex !important;
+        overflow-x: auto !important;
+        overflow-y: hidden;
+        gap: 16px;
+        scroll-snap-type: x mandatory;
+        transform: none !important;
+        padding-bottom: 10px;
+    }
+
+    /* Set lebar card supaya bisa geser */
+    .mySwiper .swiper-slide {
+        flex: 0 0 80%;      /* tampil 1 card besar di layar hp */
+        scroll-snap-align: start;
+    }
+
+    /* Hilangkan scrollbar */
+    .mySwiper .swiper-wrapper::-webkit-scrollbar {
+        display: none;
+    }
+}   
