@@ -29,7 +29,7 @@
     transform: scale(0.3s);
 }
 
-/* @media (max-width: 576px) { */
+@media (max-width: 576px) {
     .stats-card {
         max-width: 320px;
         padding: 15px;
@@ -39,7 +39,7 @@
         max-height: 140px;
         object-fit: cover;
     }
-/* } */
+}
 
 span {
     color: rgb(226, 162, 0);
@@ -71,6 +71,15 @@ span {
         padding: 20px;
         align-items: flex-start;
     }
+
+    .d-flex.justify-content-between {
+        flex-direction: column;
+        align-items: flex-start !important;
+        gap: 10px;
+    }
+
+    .slider-prev { left: 0; }
+    .slider-next { right: 0; }
 }
 
 /* ============================
@@ -95,9 +104,15 @@ span {
         padding: 20px;
         align-items: flex-start;
     }
+
+    .slider-next{
+        display: none;
+    }
+
+    .slider-prev {  
+        display: none;
+    }
 }
-
-
 
 /* gambar di dalam */
 .hero-image {
@@ -120,17 +135,11 @@ span {
 }
 
 /* .testimonial-card { */
-    background: #0000;
-    border-radius: 20px;
-    box-shadow: 0 4px 25px rgba(0,0,0,0.05);
+    /* background: #0000; */
+    /* border-radius: 20px; */
+    /* box-shadow: 0 4px 25px rgba(0,0,0,0.05); */
 /* } */
 
-.user-img {
-    width: 55px;
-    height: 55px;
-    border-radius: 50%;
-    object-fit: cover;
-}
 
 /* Tombol slider */
 /* ==== POSISI TOMBOL SLIDER ==== */
@@ -138,8 +147,8 @@ span {
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
-        width: 45px;
-        height: 45px;
+        width: 30px;
+        height: 30px;
         border-radius: 50%;
         background: #cbcbcb;
         display: flex;
@@ -169,7 +178,7 @@ span {
 }
 
 .testimonial-card {
-    background: #CBCBCB;   /* putih */
+    background: #f7f4e8;   /* putih */
     border-radius: 20px;
     box-shadow: 0 4px 25px rgba(0,0,0,0.05);
 }
@@ -245,11 +254,212 @@ span {
     justify-content: center;
 }
 
+.title-link {
+    text-decoration: none;
+    color: #141010;
+    font-size: 25px;
+}
+
+.back-link {
+    color: #141010;
+    font-size: 18px;
+}
+.btn-warning {
+    background: rgb(255, 183, 0);
+    color: #000;
+    border: none;
+    font-size: 15px;
+    border-radius: 12px;
+}
+
+.border {
+    border-color: #f0f0f0 !important;
+}
+
+.btn-warning:hover {
+    background: #0000;
+    color: rgb(255, 183, 0);
+}
+
+.posterSwiper {
+    position: relative;
+}
+
+.posterSwiper .swiper-slide {
+    display: flex;
+    justify-content: center;
+}
+
+.posterSwiper img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+/* Tombol */
+.posterSwiper .poster-prev {
+    left: -10px;
+}
+
+.posterSwiper .poster-next {
+    right: -10px;
+}
+
+.bg-books {
+    background-color: rgb(255, 183, 0);
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+}
+.video-thumb {
+    cursor: pointer;
+}
+
+.video-thumb img {
+    filter: brightness(70%);
+    transition: .3s;
+}
+
+.video-thumb:hover img {
+    filter: brightness(50%);
+}
+
+.play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    color: white;
+    opacity: .9;
+}
+
+.pola-img {
+    border: 8px solid white;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    width: 180px;
+    transform: rotate(var(--rot));
+    transition: .3s;
+}
+
+.pola-img:hover {
+    transform: rotate(0deg) scale(1.05);
+}
+
+.foto-wrapper {
+    position: relative;
+}
+
+.feature-box {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.feature-icon {
+    background: #f7f4e8;
+    padding: 15px;
+    border-radius: 12px;
+    font-size: 30px;
+}
+
+.highlight {
+    /* background: #FFEB3B; */
+    padding: 0 6px;
+}
+
+.partner-logo {
+    opacity: .8;
+    transition: .3s;
+    max-height: 70px;      /* Batasi tinggi logo agar seragam */
+    object-fit: contain;
+}
+.partner-logo:hover {
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+.footer-dark {
+    background: #1E1F23; /* warna gelap netral */
+    color: #fff;
+}
+
+.footer-dark img {
+    max-width: 140px !important;
+}
+
+.footer-text {
+    color: #bfbfbf;
+    font-size: 15px;
+    line-height: 1.6;
+}
+.footer-links li {
+    list-style: none;
+    margin-bottom: 7px;
+}
+.footer-links a {
+    color: #cdcdcd;
+    font-size: 15px;
+    text-decoration: none;
+    transition: .2s;
+    display: inline-block;
+    margin-left: -32px;
+}
+.footer-links a:hover {
+    color: rgb(226, 162, 0);
+}
+.copyright {
+    color: #999;
+    font-size: 14px;
+}
+.social {
+    display: inline-block;
+    color: #fff;
+    font-size: 22px;
+    margin-right: 12px;
+    transition: .3s;
+}
+
+.social-icons {
+    display: flex;
+    gap: 12px;
+}
+
+.social:hover {
+    color: rgb(226, 162, 0); /* kuning khas Aksoro */
+}
+
 /* Mobile */
 @media (max-width: 768px) {
     .expert-card {
         width: 220px;     /* tetap lebih besar dari sebelumnya */
         height: 310px;
     }
+    .foto-wrapper {
+        display: grid !important;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        position: static !important;
+    }
+
+    .pola-wrapper {
+        position: static !important;
+        transform: none !important;
+        top: auto !important;
+        left: auto !important;
+        margin: 0 auto;
+    }
+
+    .pola-img {
+        width: 85px !important;
+        border-width: 5px;
+    }
 }
 
+
+img.user-img{
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 50%;
+    object-fit: cover;
+}

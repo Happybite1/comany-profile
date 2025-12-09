@@ -12,14 +12,14 @@
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
         <li class="nav-item"><a href="{{ route('main') }}" class="nav-link">Home</a></li>
         <li class="nav-item"><a href="{{ route('about') }}" class="nav-link">About Us</a></li>
-        <li class="nav-item"><a href="{{ route('workshop') }}" class="nav-link">Workshop</a></li>
          <li class="nav-item dropdown"> 
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Product
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Books</a></li>
-            <li><a class="dropdown-item" href="#">Ecourse</a></li>
+            <li><a class="dropdown-item" href="#">Workshop</a></li>
+            <li><a class="dropdown-item" href="#">Seminar</a></li>
+            <li><a class="dropdown-item" href="#">Books & Ecourse</a></li>
             <!-- <li><hr class="dropdown-divider"></li> -->
           </ul>
         </li>
