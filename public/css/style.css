@@ -97,22 +97,6 @@ span {
 /* ============================
    RESPONSIVE MAX 400PX
    ============================ */
-@media (max-width: 400px) {
-    .home-hero {
-        height: 125vh;
-        background-position: top center;
-        padding: 20px;
-        align-items: flex-start;
-    }
-
-    .slider-next{
-        display: none;
-    }
-
-    .slider-prev {  
-        display: none;
-    }
-}
 
 /* gambar di dalam */
 .hero-image {
@@ -363,7 +347,7 @@ span {
     font-size: 30px;
 }
 
-.highlight {
+.highlight-partner {
     /* background: #FFEB3B; */
     padding: 0 6px;
 }
@@ -429,6 +413,20 @@ span {
     color: rgb(226, 162, 0); /* kuning khas Aksoro */
 }
 
+
+@media (max-width: 400px) {
+    .home-hero {
+        height: 125vh;
+        background-position: top center;
+        padding: 20px;
+        align-items: flex-start;
+    }
+
+    .nav-btn {
+        display: none;
+    }
+}
+
 /* Mobile */
 @media (max-width: 768px) {
     .expert-card {
@@ -453,6 +451,11 @@ span {
     .pola-img {
         width: 85px !important;
         border-width: 5px;
+    }
+
+    .bg-books {
+        border-top-left-radius: 25%;
+        border-top-right-radius: 25%;
     }
 }
 

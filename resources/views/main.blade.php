@@ -339,7 +339,6 @@
                                     <div class="swiper-slide">
                                         <img src="#" class="img-fluid rounded" alt="Poster 3">
                                     </div>
-
                                 </div>
                             </div>
 
@@ -534,7 +533,7 @@
                 <!-- Title -->
                 <h2 class="fw-bold mb-3">
                 Ternak Properti Menjembatani Ribuan Perusahaan<br>
-                <span class="highlight">Tumbuh Dengan Pesat Dari Praktisi</span>
+                <span class="highlight-partner">Tumbuh Dengan Pesat Dari Praktisi</span>
                 </h2>
 
                 <!-- Subtle Line -->
