@@ -14,7 +14,7 @@
 <body>
     @include('layout.header')
     
-    <div class="container-fluid">
+    <div class="container-fluid p-0 m-0">
     <section class="text-black position-relative home-hero" id="home">
 
 
@@ -357,7 +357,7 @@
                 </path>
             </svg> -->
 
-            <div class="container py-5">
+            <div class="container-fluid py-5">
                 <a href="" class="mb-4 text-center fw-bold d-block text-dark text-decoration-none">Super Impact!</a>
                 <h2 class="mb-4 text-center fw-bold">Bukan Buku & E-COURSE Properti Biasa</h2>
                 <!-- <a href="" class="text-dark">"</a> -->

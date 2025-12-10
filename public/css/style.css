@@ -154,10 +154,12 @@ span {
 .mySwiper {
     padding-left: 10px;
     padding-right: 10px;
+    width: 100%;
 }
 
 .swiper-slide {
     display: flex;
+    width: auto;
     justify-content: center;     /* card benar-benar di tengah */
 }
 
@@ -193,13 +195,13 @@ span {
 /* ===== EXPERT CARD MIRIP AKSORO ===== */
 /* ===== EXPERT CARD LEBIH BESAR ===== */
 .expert-card {
-    width: 350px;          /* sebelumnya 230px → sekarang lebih besar */
-    height: 500px;         /* sebelumnya 310px → lebih tinggi sedikit */
+    width: 100%;
+    max-width: 320px;
     border-radius: 28px;
+    height: auto;
     overflow: hidden;
     position: relative;
     background: #000;
-    flex-shrink: 0;
 }
 
 /* Gambar tetap proporsional */
@@ -229,7 +231,7 @@ span {
 
 /* Swiper founder: jarak antar slide DIPERKECIL */
 .founderSwiper .swiper-wrapper {
-    gap: 12px;     /* sebelumnya default Swiper (besar), sekarang rapat */
+    gap: 0;     /* sebelumnya default Swiper (besar), sekarang rapat */
 }
 
 /* Supaya card tetap center */
@@ -438,7 +440,7 @@ span {
         grid-template-columns: repeat(3, 1fr);
         gap: 10px;
         position: static !important;
-    }
+    }   
 
     .pola-wrapper {
         position: static !important;
@@ -457,8 +459,58 @@ span {
         border-top-left-radius: 25%;
         border-top-right-radius: 25%;
     }
+
+    .mySwiper .swiper-wrapper::-webkit-scrollbar {
+        display: none; /* Chrome */
+    }
+
+    .mySwiper .swiper-slide {
+        width: 80%;               /* card lebar pas untuk scroll */
+        flex-shrink: 0;           /* jangan mengecil */
+    }
+
+    /* Tombol panah hilang di mobile */
+    .slider-prev,
+    .slider-next {
+        display: none !important;
+    }
+
+    .founderSwiper .swiper-wrapper {
+        gap: 12px;
+    }
 }
 
+/* ===== TAMPILAN MOBILE 320–480px ===== */
+@media (max-width: 480px) {
+
+    .mySwiper .swiper-slide {
+        width: 100%;
+    }
+
+    .slider-prev, .slider-next {
+        display: none !important;
+    }
+    .mySwiper .swiper-wrapper::-webkit-scrollbar {
+        display: none;
+    }
+
+    .testimonial-card {
+        width: 100%;          /* card ikut full */
+        max-width: 100%;
+    }
+
+    /* Tombol slider disembunyikan */
+    .slider-prev,
+    .slider-next {
+        display: none !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .expert-card {
+        height: 480px; 
+    }
+}
 
 img.user-img{
     width: 50px !important;
