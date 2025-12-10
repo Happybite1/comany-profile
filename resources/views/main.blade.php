@@ -476,10 +476,10 @@
                         <img src="img/peserta.jpg" class="pola-img pola-wrapper"
                             style="--rot:-8deg; top: 10px; left: 40px;">
 
-                        <img src="img/peserta2.jpg" class="pola-img pola-wrapper"
+                        <img src="img/peserta8.jpg" class="pola-img pola-wrapper"
                             style="--rot:6deg; top: 60px; left: 200px;">
 
-                        <img src="img/peserta3.jpg" class="pola-img pola-wrapper"
+                        <img src="img/peserta9.jpg" class="pola-img pola-wrapper"
                             style="--rot:-4deg; top: 180px; left: 20px;">
 
                         <img src="img/peserta4.jpg" class="pola-img pola-wrapper"
@@ -488,10 +488,10 @@
                         <img src="img/peserta5.jpg" class="pola-img pola-wrapper"
                             style="--rot:-6deg; top: 100px; left: 350px;">
 
-                        <img src="img/peserta6.jpg" class="pola-img pola-wrapper"
+                        <img src="img/peserta10.jpg" class="pola-img pola-wrapper"
                             style="--rot:8deg; top: 260px; left: 330px;">
 
-                        <img src="img/peserta7.jpg" class="pola-img pola-wrapper"
+                        <img src="img/peserta11.jpg" class="pola-img pola-wrapper"
                             style="--rot:-3deg; top: 330px; left: 130px;">
                     </div>
 
