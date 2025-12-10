@@ -465,7 +465,7 @@
                             Sebuah komunitas yang saling mengangkat ke atas.
                         </p>
 
-                        <a href="#" class="btn btn-dark btn-lg px-4">
+                        <a href="#" class="btn btn-dark btn-sm px-4">
                             Segera Join Ternak Properti
                         </a>
                     </div>
