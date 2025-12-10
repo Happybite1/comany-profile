@@ -15,6 +15,10 @@ function initSwiper() {
                 nextEl: ".slider-next",
                 prevEl: ".slider-prev",
             },
+            pagination: {
+                el: ".swiper-pagination.swip",
+                clickable: true,
+            },
             breakpoints: {
                 768: { slidesPerView: 2 },
                 992: { slidesPerView: 3 }
@@ -29,8 +33,8 @@ window.addEventListener("load", initSwiper);
 
 var founderSwiper = new Swiper(".founderSwiper", {
     loop: true,
-    spaceBetween: 20,
-
+    spaceBetween: 30,
+    
     breakpoints: {
         0: { slidesPerView: 1.2 },
         576: { slidesPerView: 2 },

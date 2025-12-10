@@ -141,6 +141,8 @@
                     </div>
                 </div>
 
+                <!-- Pagination Bullet -->
+                <div class="swiper-pagination swip"></div>
             </div>
         </section>
 
@@ -223,17 +225,17 @@
                 <!-- Arrow Navigation -->
                 <!-- <div class="nav-btn founder-prev"><i class="bi bi-chevron-left"></i></div>
                 <div class="nav-btn founder-next"><i class="bi bi-chevron-right"></i></div> -->
-
+                
             </div>
         </section>
 
         <section class="py-5">
             <div class="container text-center mb-5">
-                <a href="https://ternakproperti.com" class="fw-bold display-5 title-link">Siap Naik Level?</a>
+                <a href="comany-profile-production.up.railway.app" class="fw-bold display-5 title-link">Siap Naik Level?</a>
                 <h1 class="fw-bold display-5" id="flayer">
                     Best Seller Januari–Desember 2025
                 </h1>
-                <p class="text-muted"><a class="text-decoration-none back-link" href="https://ternakproperti.com/flayer">
+                <p class="text-muted"><a class="text-decoration-none back-link" href="comany-profile-production.up.railway.app">
                     Karena target next level, butuh cara main yang next level!</a>
                 </p>
             </div>
@@ -243,7 +245,7 @@
 
                     <!-- Card 1 -->
                     <div class="col-lg-4 col-md-6">
-                        <div class="p-4 border rounded-3 shadow-sm h-100">
+                        <div class="p-3 border rounded-5 shadow-sm h-100">
 
                             <div class="d-flex justify-content-between align-items-start mb-4">
                                 <h3 class="fw-bold fs-3">Seminar Property Acquisition</h3>
@@ -269,8 +271,9 @@
                                     <div class="swiper-slide">
                                         <img src="#" class="img-fluid rounded" alt="Poster 3">
                                     </div>
-
                                 </div>
+
+                                <div class="swiper-pagination"></div>
                             </div>
 
                         </div>
@@ -278,7 +281,7 @@
 
                     <!-- Card 2 -->
                     <div class="col-lg-4 col-md-6">
-                        <div class="p-4 border rounded-3 shadow-sm h-100">
+                        <div class="p-3 border rounded-5 shadow-sm h-100">
 
                             <div class="d-flex justify-content-between align-items-start mb-4">
                                 <h3 class="fw-bold fs-3">Workshop Property Acquisition</h3>
@@ -304,8 +307,9 @@
                                     <div class="swiper-slide">
                                         <img src="#" class="img-fluid rounded" alt="Poster 3">
                                     </div>
-
                                 </div>
+
+                                <div class="swiper-pagination"></div>
                             </div>
 
                         </div>
@@ -313,7 +317,7 @@
 
                     <!-- Card 3 (Baru) -->
                     <div class="col-lg-4 col-md-6">
-                        <div class="p-4 border rounded-3 shadow-sm h-100">
+                        <div class="p-3 border rounded-5 shadow-sm h-100">
 
                             <div class="d-flex justify-content-between align-items-start mb-4">
                                 <h3 class="fw-bold fs-3">Buku &<br> E-COURSE Properti</h3>
@@ -340,6 +344,8 @@
                                         <img src="#" class="img-fluid rounded" alt="Poster 3">
                                     </div>
                                 </div>
+
+                                <div class="swiper-pagination mt-6"></div>
                             </div>
 
                         </div>
@@ -493,6 +499,12 @@
 
                         <img src="img/peserta11.JPG" class="pola-img pola-wrapper"
                             style="--rot:-3deg; top: 330px; left: 130px;">
+
+                        <img src="img/peserta11.JPG" class="pola-img pola-wrapper"
+                            style="--rot:-3deg; top: 330px; left: 130px;">
+                            
+                        <img src="img/peserta11.JPG" class="pola-img pola-wrapper"
+                            style="--rot:-3deg; top: 330px; left: 130px;">
                     </div>
 
 
@@ -612,6 +624,10 @@
         var posterSwiper = new Swiper(".posterSwiper", {
         slidesPerView: 1,
         spaceBetween: 20,
+        pagination: {
+        el: ".posterSwiper .swiper-pagination",
+        clickable: true,
+        },
         });
     </script>
 </body>

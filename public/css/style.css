@@ -26,7 +26,7 @@
 
 .btn:hover {
     color: rgb(255, 183, 0) !important;
-    transform: scale(0.3s);
+    transform: scale(1.03);
 }
 
 @media (max-width: 576px) {
@@ -74,12 +74,16 @@ span {
 
     .d-flex.justify-content-between {
         flex-direction: column;
-        align-items: flex-start !important;
+        /* align-items: flex-start !important; */
         gap: 10px;
     }
 
-    .slider-prev { left: 0; }
-    .slider-next { right: 0; }
+    .slider-prev,
+    .slider-next {
+        display: none !important;
+        left: 0 !important;
+        right: 0 !important;
+    }
 }
 
 /* ============================
@@ -142,8 +146,8 @@ span {
         z-index: 10;
     }
 
-    .slider-prev { left: -20px; }
-    .slider-next { right: -20px; }
+    /* .slider-prev { left: -20px; } */
+    /* .slider-next { right: -20px; } */
 
     .nav-btn i {
         font-size: 20px;
@@ -357,7 +361,7 @@ span {
 .partner-logo {
     opacity: .8;
     transition: .3s;
-    max-height: 70px;      /* Batasi tinggi logo agar seragam */
+    /* max-height: 70px;      Batasi tinggi logo agar seragam */
     object-fit: contain;
 }
 .partner-logo:hover {
@@ -415,7 +419,64 @@ span {
     color: rgb(226, 162, 0); /* kuning khas Aksoro */
 }
 
+.swip .swiper-pagination-bullet {
+    background: #d4d4d4;
+    opacity: 1;
+    width: 10px;
+    height: 10px;
+}
 
+.swip .swiper-pagination-bullet-active {
+    background: #ffb700; /* warna aktif */
+}
+
+.posterSwiper .swiper-pagination-bullet {
+    background: #d4d4d4;
+    opacity: 1;
+    width: 9px;
+    height: 9px;
+}
+
+.posterSwiper .swiper-pagination-bullet-active {
+    background: #ffb700;
+}
+
+.breadcrumb-link {
+    text-decoration: none;
+    color: #141010; /* warna teks yang kamu mau */
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0;     /* wajib! agar tidak tinggi */
+}
+.breadcrumb-link:hover {
+    color: rgb(255, 183, 0) !important;
+    transform: scale(1.03);
+}
+
+.text-title {
+    font-size: 45px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.title-about {
+    cursor: pointer;
+}
+
+.text-about {
+    /* font-size: 18px; */
+    color: rgba(33, 37, 41, 0.75);
+    cursor: pointer;
+    /* padding-left: 20px; */
+    /* font-weight: bold; */
+}
+
+.text-link {
+    text-decoration: none;
+    color: rgba(33, 37, 41, 0.75);
+    font-size: 1rem;
+    /* font-weight: bold; */
+}
 @media (max-width: 400px) {
     .home-hero {
         height: 125vh;
