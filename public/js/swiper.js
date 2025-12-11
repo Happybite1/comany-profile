@@ -43,3 +43,24 @@ var founderSwiper = new Swiper(".founderSwiper", {
         992: { slidesPerView: 3 }
     }
 });
+
+var superteamSwiper = new Swiper(".superteamSwiper", {
+    loop: true,
+    spaceBetween: 25,
+    autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+    },
+
+    breakpoints: {
+        0: { slidesPerView: 1.2 },
+        576: { slidesPerView: 1.6 },
+        768: { slidesPerView: 2 },
+        992: { slidesPerView: 3 }
+    },
+
+    pagination: {
+        el: ".superteamSwiper .swiper-pagination",
+        clickable: true,
+    }
+});

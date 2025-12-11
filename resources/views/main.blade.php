@@ -166,7 +166,7 @@
                                 <img src="img/159.png" class="expert-img" alt="">
                                 <div class="expert-overlay"></div>
                                 <div class="expert-text">
-                                    <h5>VIAN KUMARA</h5>
+                                    <h5>Vian Kumara</h5>
                                     <p>Marketing Performance in Property Selama 12 Tahun</p>
                                 </div>
                             </div>

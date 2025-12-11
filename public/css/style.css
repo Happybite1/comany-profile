@@ -91,7 +91,7 @@ span {
    ============================ */
 .home-hero {
     background: url('/img/background.png') no-repeat center center/cover;
-    height: 130vh;
+    /* height: 130vh; */
     display: flex;
     align-items: center;
     position: relative;
@@ -146,8 +146,8 @@ span {
         z-index: 10;
     }
 
-    /* .slider-prev { left: -20px; } */
-    /* .slider-next { right: -20px; } */
+    .slider-prev { left: -20px; }
+    .slider-next { right: -20px; }
 
     .nav-btn i {
         font-size: 20px;
@@ -455,18 +455,21 @@ span {
 
 .text-title {
     font-size: 45px;
-    font-weight: bold;
-    cursor: pointer;
+    /* padding-left: 20px; biar tidak mentok kiri */
 }
 
-.title-about {
-    cursor: pointer;
+.title-about span {
+    color: rgb(255, 183, 0); /* contoh highlight */
+}
+
+.img-fluid {
+    max-width: 90%;
 }
 
 .text-about {
     /* font-size: 18px; */
     color: rgba(33, 37, 41, 0.75);
-    cursor: pointer;
+    /* cursor: pointer; */
     /* padding-left: 20px; */
     /* font-weight: bold; */
 }
@@ -477,6 +480,108 @@ span {
     font-size: 1rem;
     /* font-weight: bold; */
 }
+
+.profile-section {
+    background: #fff;
+}
+
+.line {
+    width: 260px;
+}
+
+.profile-photo-wrapper {
+    width: 280px;
+    height: 280px;
+    background: rgb(255, 183, 0);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.profile-photo {
+    width: 126%;
+    height: auto;
+}
+
+/* ======= HORIZONTAL SCROLL ======= */
+.scroll-wrapper {
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.scroll-container {
+    display: flex;
+    gap: 30px;
+    padding-bottom: 40px;
+}
+
+.scroll-item {
+    min-width: 350px; /* ukuran card */
+}
+
+/* HIDE SCROLLBAR */
+.scroll-wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+/* BACKGROUND */
+.superteam-section {
+    background: #fbfaef;
+}
+
+/* Card gambar */
+.team-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* === SHAPES === */
+.shape {
+    position: absolute;
+    bottom: -35px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+
+.shape-semicircle {
+    width: 160px;
+    height: 80px;
+    background: rgb(255, 183, 0);
+    border-radius: 160px 160px 0 0;
+}
+
+.shape-triangle {
+    width: 0;
+    height: 0;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    border-bottom: 120px solid #3b70d7;
+}
+
+.shape-trapezoid {
+    width: 160px;
+    height: 0;
+    border-bottom: 120px solid #6fc54f;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+}
+
+.superteam-section .swiper-slide {
+    padding-bottom: 60px; /* agar shape muat */
+}
+
+.contact-form {
+    background: rgb(255, 183, 0); /* warna kuning */
+}
+
+/* Optional: bikin text rapi */
+.contact-section p {
+    font-size: 16px;
+}
+
 @media (max-width: 400px) {
     .home-hero {
         height: 125vh;
@@ -539,6 +644,10 @@ span {
     .founderSwiper .swiper-wrapper {
         gap: 12px;
     }
+
+    .line{
+        width: 205px;
+    }
 }
 
 /* ===== TAMPILAN MOBILE 320–480px ===== */
@@ -570,6 +679,24 @@ span {
 @media (min-width: 992px) {
     .expert-card {
         height: 480px; 
+    }
+}
+
+@media (max-width: 450px) {
+    .home-hero {
+        height: 100vh;
+        background-position: top center;
+        padding: 20px;
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 380px) {
+    .home-hero {
+        height: 120vh;
+        background-position: top center;
+        padding: 20px;
+        align-items: flex-start;
     }
 }
 

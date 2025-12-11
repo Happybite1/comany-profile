@@ -13,3 +13,7 @@ Route::get('/about', function () {
 Route::get('/workshop', function () {
     return view('workshop'); 
 })->name('workshop');
+
+Route::get('/speakers', function () {
+    return view('speakers'); 
+})->name('speakers');
