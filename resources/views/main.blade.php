@@ -477,37 +477,22 @@
                     </div>
 
                     <!-- FOTO BAGIAN KANAN -->
-                    <div class="col-lg-6 position-relative foto-wrapper">
+                    <div class="col-lg-6 position-relative">
 
-                        <img src="img/peserta.jpg" class="pola-img pola-wrapper"
-                            style="--rot:-8deg; top: 10px; left: 40px;">
+                        <div class="swiper fotoSwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="img/peserta.jpg" class="w-100 rounded-3"></div>
+                                <div class="swiper-slide"><img src="img/peserta8.JPG" class="w-100 rounded-3"></div>
+                                <div class="swiper-slide"><img src="img/peserta9.JPG" class="w-100 rounded-3"></div>
+                                <div class="swiper-slide"><img src="img/peserta4.jpg" class="w-100 rounded-3"></div>
+                                <div class="swiper-slide"><img src="img/peserta5.jpg" class="w-100 rounded-3"></div>
+                                <div class="swiper-slide"><img src="img/peserta10.JPG" class="w-100 rounded-3"></div>
+                                <div class="swiper-slide"><img src="img/peserta11.JPG" class="w-100 rounded-3"></div>
+                            </div>
 
-                        <img src="img/peserta8.JPG" class="pola-img pola-wrapper"
-                            style="--rot:6deg; top: 60px; left: 200px;">
-
-                        <img src="img/peserta9.JPG" class="pola-img pola-wrapper"
-                            style="--rot:-4deg; top: 180px; left: 20px;">
-
-                        <img src="img/peserta4.jpg" class="pola-img pola-wrapper"
-                            style="--rot:5deg; top: 220px; left: 180px;">
-
-                        <img src="img/peserta5.jpg" class="pola-img pola-wrapper"
-                            style="--rot:-6deg; top: 100px; left: 350px;">
-
-                        <img src="img/peserta10.JPG" class="pola-img pola-wrapper"
-                            style="--rot:8deg; top: 260px; left: 330px;">
-
-                        <img src="img/peserta11.JPG" class="pola-img pola-wrapper"
-                            style="--rot:-3deg; top: 330px; left: 130px;">
-
-                        <img src="img/peserta11.JPG" class="pola-img pola-wrapper"
-                            style="--rot:-3deg; top: 330px; left: 130px;">
-                            
-                        <img src="img/peserta11.JPG" class="pola-img pola-wrapper"
-                            style="--rot:-3deg; top: 330px; left: 130px;">
+                            <div class="swiper-pagination foto-pagination swip"></div>
+                        </div>
                     </div>
-
-
                 </div>
 
                 <!-- FITUR BAGIAN BAWAH -->

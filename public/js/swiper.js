@@ -33,14 +33,28 @@ window.addEventListener("load", initSwiper);
 
 var founderSwiper = new Swiper(".founderSwiper", {
     loop: true,
-    spaceBetween: 30,
-    
+    autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+    },
+    spaceBetween: 20,
+
     breakpoints: {
-        0: { slidesPerView: 1.2 },
+        0: { 
+            slidesPerView: 1,      // 1 gambar saja
+            centeredSlides: true,
+            centeredSlidesBounds: true,   // benar-benar di tengah
+            spaceBetween: 0         // tidak ada gap kiri-kanan
+        },
         576: { slidesPerView: 2 },
         768: { slidesPerView: 2.3 },
         900: { slidesPerView: 2.6 },
         992: { slidesPerView: 3 }
+    },
+
+    pagination: {
+        el: ".founder-pagination",
+        clickable: true,
     }
 });
 
@@ -61,6 +75,20 @@ var superteamSwiper = new Swiper(".superteamSwiper", {
 
     pagination: {
         el: ".superteamSwiper .swiper-pagination",
+        clickable: true,
+    }
+});
+
+var fotoSwiper = new Swiper(".fotoSwiper", {
+    slidesPerView: 1,
+    spaceBetween: 20,
+    loop: true,
+    autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+    },
+    pagination: {
+        el: ".foto-pagination",
         clickable: true,
     }
 });

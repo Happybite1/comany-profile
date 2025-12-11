@@ -234,7 +234,7 @@
                     </div>
 
                     <!-- Optional Pagination -->
-                    <div class="swiper-pagination"></div>
+                    <div class="swiper-pagination swip"></div>
                 </div>
 
             </div>
@@ -247,7 +247,7 @@
 
                     <!-- LEFT INFO -->
                     <div class="col-lg-6">
-                        <p class="fw-semibold text-muted">Discuss with our friendly team</p>
+                        <p class="fw-semibold text-muted">Discuss with investor team</p>
                         <h1 class="fw-bold mb-4">Get in touch with us</h1>
 
                         <p class="mb-3">
@@ -267,7 +267,7 @@
 
                         <p class="mb-3">
                             <i class="bi bi-envelope me-2"></i>
-                            care@aksoro.co.id
+                            brandingsosmed@gmail.com
                         </p>
                     </div>
 

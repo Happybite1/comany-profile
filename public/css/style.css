@@ -84,6 +84,10 @@ span {
         left: 0 !important;
         right: 0 !important;
     }
+
+    .founderSwiper .swiper-slide {
+        margin-right: 0 !important;
+    }
 }
 
 /* ============================
@@ -238,10 +242,18 @@ span {
     gap: 0;     /* sebelumnya default Swiper (besar), sekarang rapat */
 }
 
+.founderSwiper {
+    overflow: hidden !important;
+}
+
 /* Supaya card tetap center */
 .founderSwiper .swiper-slide {
-    display: flex;
+    /* display: flex; */
     justify-content: center;
+}
+
+.founderSwiper img {
+    max-width: 100% !important;
 }
 
 .title-link {
@@ -335,8 +347,10 @@ span {
     transform: rotate(0deg) scale(1.05);
 }
 
-.foto-wrapper {
-    position: relative;
+.fotoSwiper img {
+    height: 350px;
+    object-fit: cover;
+    border-radius: 15px;
 }
 
 .feature-box {
@@ -601,12 +615,13 @@ span {
         width: 220px;     /* tetap lebih besar dari sebelumnya */
         height: 310px;
     }
-    .foto-wrapper {
+
+    /* .foto-wrapper {
         display: grid !important;
         grid-template-columns: repeat(3, 1fr);
         gap: 10px;
         position: static !important;
-    }   
+    }    */
 
     .pola-wrapper {
         position: static !important;
@@ -673,6 +688,12 @@ span {
     .slider-prev,
     .slider-next {
         display: none !important;
+    }
+
+    .fotoSwiper img {
+        height: 250px;
+        object-fit: cover;
+        border-radius: 15px;
     }
 }
 
