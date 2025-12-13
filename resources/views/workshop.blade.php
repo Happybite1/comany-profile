@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href='https://cdn.boxicons.com/3.0.6/fonts/basic/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     @include('layout.header')
@@ -33,6 +34,12 @@
                         Workshop intensif 2 hari bersama coach & praktisi bisnis
                         berpengalaman 20 tahun lebih
                         </p>
+
+                        <!-- LEARN MORE -->
+                        <a href="#" class="learn-more d-inline-flex align-items-center mt-2">
+                            Learn more
+                            <i class="bxr bxs-arrow-in-up-right-stroke-circle bx-rotate-90 bx-flip-horizontal" style="color:#ffc200"></i>
+                        </a>
                     </div>
                     </div>
                 </div>
@@ -51,6 +58,12 @@
                         Workshop ini sangat direkomendasikan untuk Manager
                         agar mencapai target sampai akhir tahun
                         </p>
+
+                        <!-- LEARN MORE -->
+                        <a href="#" class="learn-more d-inline-flex align-items-center mt-2">
+                            Learn more
+                            <i class="bxr bxs-arrow-in-up-right-stroke-circle bx-rotate-90 bx-flip-horizontal" style="color:#ffc200"></i>
+                        </a>
                     </div>
                     </div>
                 </div>
@@ -68,6 +81,12 @@
                         <p class="text-muted small mt-3">
                         70% studi kasus dan praktik. Premium OFFLINE & ONLINE workshop
                         </p>
+
+                        <!-- LEARN MORE -->
+                        <a href="#" class="learn-more d-inline-flex align-items-center mt-2">
+                            Learn more
+                            <i class="bxr bxs-arrow-in-up-right-stroke-circle bx-rotate-90 bx-flip-horizontal" style="color:#ffc200"></i>
+                        </a>
                     </div>
                     </div>
                 </div>

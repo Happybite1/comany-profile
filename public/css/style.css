@@ -601,6 +601,10 @@ span {
   position: relative;
 }
 
+.text-materi {
+    padding-top: 20px;
+}
+
 .komisaris-card img {
   width: 100%;
   height: auto;
@@ -633,6 +637,26 @@ span {
 .workshop-card img {
   border-top-left-radius: 24px;
   border-top-right-radius: 24px;
+}
+
+.learn-more {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+  text-decoration: none;
+  transition: all .3s ease;
+}
+
+.learn-more i {
+  transition: transform .3s ease;
+}
+
+.learn-more:hover {
+  color: #000;
+}
+
+.learn-more:hover i {
+  transform: translateX(5px);
 }
 
 @media (max-width: 400px) {

@@ -37,7 +37,7 @@
                     </div>
                     </div>
 
-                    <div class="col-md-7">
+                    <div class="col-md-7 text-materi">
                     <h3 class="fw-bold mb-1">Dimas Dwi Ananto</h3>
                     <p class="fw-semibold text-warning">CEO & Founder Ternak Properti</p>
                     <p class="text-muted small" style="line-height:1.7">
@@ -59,7 +59,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-7"> 
+                    <div class="col-md-7 text-materi"> 
                     <h3 class="fw-bold mb-1">Vian Kumara</h3>
                     <p class="fw-semibold text-warning">Property Investor</p>
                     <p class="text-muted small">
@@ -81,7 +81,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-7"> 
+                    <div class="col-md-7 text-materi"> 
                     <h3 class="fw-bold mb-1">Theo Ariandyen</h3>
                     <p class="fw-semibold text-warning">Property Investor</p>
                     <p class="text-muted small">
@@ -102,7 +102,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-7"> 
+                    <div class="col-md-7 text-materi"> 
                     <h3 class="fw-bold mb-1">Stephanus P H A S</h3>
                     <p class="fw-semibold text-warning">Property Investor</p>
                     <p class="text-muted small">
@@ -123,7 +123,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-7"> 
+                    <div class="col-md-7 text-materi"> 
                     <h3 class="fw-bold mb-1">Rhesa Yogaswara</h3>
                     <p class="fw-semibold text-warning">Property Investor</p>
                     <p class="text-muted small">
