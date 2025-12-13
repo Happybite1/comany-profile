@@ -477,7 +477,7 @@ span {
 }
 
 .img-fluid {
-    max-width: 90%;
+    max-width: 100%;
 }
 
 .text-about {
@@ -594,6 +594,45 @@ span {
 /* Optional: bikin text rapi */
 .contact-section p {
     font-size: 16px;
+}
+
+.komisaris-card {
+  overflow: hidden;
+  position: relative;
+}
+
+.komisaris-card img {
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 15px;
+  background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);
+}
+
+.workshop-section {
+  background-color: rgb(255, 183, 0); /* kuning */
+}
+
+.workshop-card {
+  background: #fff;
+  border-radius: 24px;
+  overflow: hidden;
+  transition: all .3s ease;
+}
+
+.workshop-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(0,0,0,.15);
+}
+
+.workshop-card img {
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
 }
 
 @media (max-width: 400px) {

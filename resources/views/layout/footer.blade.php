@@ -18,13 +18,8 @@
       <div class="col-6 col-md-3 col-lg-2 offset-lg-1">
         <h6 class="fw-bold text-white mb-3">Programs</h6>
         <ul class="footer-links">
-          <li><a href="#">Workshiop Property Acquistion</a></li>
-          <li><a href="#">Workshiop Digital For Property</a></li>
+          <li><a href="#">Workshop Property Acquistion</a></li>
           <li><a href="#">Seminar Property Acquistion</a></li>
-          <li><a href="#">Seminar Digital Marketing Property</a></li>
-          <li><a href="#">Seminar Financial For Property</a></li>
-          <li><a href="#">Seminar Apart Kost For Property</a></li>
-          <li><a href="#">Seminar Ternak Profit</a></li>
         </ul>
       </div>
 

@@ -26,7 +26,7 @@
             Product
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Workshop</a></li>
+            <li><a class="dropdown-item" href="{{ route('workshop') }}">Workshop</a></li>
             <li><a class="dropdown-item" href="#">Seminar</a></li>
             <li><a class="dropdown-item" href="#">Books & Ecourse</a></li>
             <!-- <li><hr class="dropdown-divider"></li> -->
