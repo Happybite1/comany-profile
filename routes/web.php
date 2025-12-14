@@ -17,3 +17,15 @@ Route::get('/workshop', function () {
 Route::get('/speakers', function () {
     return view('speakers'); 
 })->name('speakers');
+
+Route::get('/seminar', function () {
+    return view('seminar'); 
+})->name('seminar');
+
+Route::get('/product', function () {
+    return view('product'); 
+})->name('product');
+
+Route::get('/login', function () {
+    return view('login'); 
+})->name('login');

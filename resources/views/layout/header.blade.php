@@ -27,13 +27,12 @@
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><a class="dropdown-item" href="{{ route('workshop') }}">Workshop</a></li>
-            <li><a class="dropdown-item" href="#">Seminar</a></li>
-            <li><a class="dropdown-item" href="#">Books & Ecourse</a></li>
+            <li><a class="dropdown-item" href="{{ route('seminar') }}">Seminar</a></li>
+            <li><a class="dropdown-item" href="{{ route('product') }}">Books & Ecourse</a></li>
             <!-- <li><hr class="dropdown-divider"></li> -->
           </ul>
         </li>
         <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Sign In</a></li>
       </ul>
     </div>
   </div>
