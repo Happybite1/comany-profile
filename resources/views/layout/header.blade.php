@@ -10,8 +10,8 @@
 
     <div class="collapse navbar-collapse" id="navigasi">    
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-        <li class="nav-item"><a href="{{ route('main') }}" class="nav-link">Home</a></li>
-         <li class="nav-item dropdown"> 
+        <li class="nav-item nav-a"><a href="{{ route('main') }}" class="nav-link">Home</a></li>
+         <li class="nav-item dropdown nav-a"> 
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             About Us
           </a>
@@ -21,7 +21,7 @@
             <!-- <li><hr class="dropdown-divider"></li> -->
           </ul>
         </li>
-         <li class="nav-item dropdown"> 
+         <li class="nav-item dropdown nav-a"> 
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Product
           </a>
@@ -32,7 +32,7 @@
             <!-- <li><hr class="dropdown-divider"></li> -->
           </ul>
         </li>
-        <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+        <li class="nav-item nav-a"><a href="#" class="nav-link">Blog</a></li>
       </ul>
     </div>
   </div>

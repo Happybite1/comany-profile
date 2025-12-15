@@ -1,10 +1,10 @@
-.nav-link {
+.nav-a .nav-link{
     color: #141010 !important;
     font-size: 18px;
     font-weight: bold;
 }
 
-.nav-link:hover {
+.nav-a .nav-link:hover {
     color: rgb(255, 183, 0) !important;
     transform: scale(1.03);
 }
@@ -27,6 +27,102 @@
 .btn:hover {
     color: rgb(255, 183, 0) !important;
     transform: scale(1.03);
+}
+
+.workshop-profile-photo {
+  background: #222;
+  border-radius: 24px;
+  overflow: hidden;
+  max-width: 320px;
+}
+.workshop-profile-photo img {
+  width: 100%;
+  height: 360px;
+  filter: grayscale(100%);
+}
+
+/* Card kanan */
+.workshop-profile-card {
+  background: #cbcbcb;
+  border-radius: 28px;
+}
+
+.image-card {
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.12);
+}
+
+.image-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* =========================
+   THEME ORANGE + BLACK
+   ========================= */
+
+.paket-card {
+    background: #0f0f0f;  
+    border-radius: 24px;
+}
+
+/* Title */
+.paket-card h4 {
+    color: #ffb700;
+}
+
+/* List item */
+.paket-list li {
+    font-size: 0.95rem;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+/* Icon ceklis orange */
+.paket-list i {
+    color: #ffb700 !important;
+}
+
+/* Harga */
+.paket-card h3 {
+    color: #ffb700;
+}
+
+/* Text muted diubah agar kebaca */
+.paket-card .text-muted {
+    color: #000 !important;
+}
+
+/* Garis harga coret */
+.paket-card .text-decoration-line-through {
+    opacity: 0.7;
+}
+
+/* Button utama (PLATINUM) */
+.btn-orange {
+    background: #ffb700;
+    color: #000;
+    border: none;
+    font-weight: bold;
+}
+
+.btn-orange:hover {
+    background: #ffcc33;
+    color: #000;
+}
+
+/* Button outline */
+.btn-outline-orange {
+    border: 2px solid #ffb700;
+    color: #ffb700;
+    font-weight: bold;
+}
+
+.btn-outline-orange:hover {
+    background: #ffb700;
+    color: #000;
 }
 
 @media (max-width: 576px) {
@@ -73,7 +169,7 @@ span {
     }
 
     .d-flex.justify-content-between {
-        flex-direction: column;
+        /* flex-direction: column; */
         /* align-items: flex-start !important; */
         gap: 10px;
     }
@@ -659,6 +755,127 @@ span {
   transform: translateX(5px);
 }
 
+.hero-section {
+    background-color: rgb(255, 183, 0); /* kuning kuat */
+    padding-top: 100px;
+    padding-bottom: 150px;
+    /* overflow: hidden; */
+}
+
+.hero-title {
+    /* font-size: clamp(2.5rem, 5vw, 4rem); */
+    line-height: 1.2;
+    color: #000;
+}
+
+.hero-subtitle {
+    font-size: 1rem;
+    color: #000;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero-image img {
+    /* max-width: ; */
+    width: 100%;
+    max-height: 650px;
+    z-index: 1;
+    object-fit: contain;
+}
+
+/* dekorasi kanan */
+.hero-shape {
+    position: absolute;
+    right: -120px;
+    top: 50%;
+    transform: translateY(-50%) rotate(25deg);
+    width: 300px;
+    height: 120px;
+    background-color: rgba(255, 255, 255, 0.35);
+    border-radius: 80px;
+}
+
+.bd-problem-list li {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.bd-problem-list strong {
+    color: #000;
+}
+
+/* card kiri & kanan */
+.info-card {
+    height: 320px;
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+.info-card img {
+    object-fit: cover;
+    height: 100%;
+    filter: brightness(0.65);
+}
+
+/* overlay text */
+.overlay-content {
+    position: absolute;
+    bottom: 24px;
+    left: 24px;
+}
+
+/* poster tengah */
+.poster-card img {
+    max-height: 600px;
+    object-fit: cover;
+}
+
+/* card gelap kanan */
+.info-card.dark img {
+    filter: brightness(0.4) grayscale(100%);
+}
+
+.btn-custom .btn {
+    background-color: #ffc107; /* kuning normal */
+    border-color: #ffc107;
+    color: #000;
+}
+
+/* hover */
+.btn-custom:hover {
+    background-color: #ffb300; /* kuning lebih gelap */
+    border-color: #ffb300;
+    color: #000;
+}
+
+/* saat di klik */
+.btn-custom:active,
+.btn-custom:focus {
+    background-color: #000;   /* warna saat dipencet */
+    border-color: #000;
+    color: #fff;
+    box-shadow: none;
+}
+
+.sidebar {
+    min-height: 100vh;
+}
+
+.sidebar .nav-link {
+    font-size: 15px;
+    padding: 10px 15px;
+}
+
+.sidebar .nav-link:hover {
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 6px;
+}
+
+.btn-sidebar {
+    color: #fff;
+    font-weight: bold;
+}
+
 @media (max-width: 400px) {
     .home-hero {
         height: 125vh;
@@ -725,6 +942,10 @@ span {
 
     .line{
         width: 205px;
+    }
+
+    .sidebar {
+        min-height: 100vh;
     }
 }
 

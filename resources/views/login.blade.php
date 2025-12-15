@@ -56,7 +56,7 @@
                 <p class="text-muted">Silakan login untuk melanjutkan</p>
             </div>
 
-            <form>
+            <form method="POST">
                 <div class="mb-3">
                     <label class="form-label">Username</label>
                     <input type="text" class="form-control form-control-lg" placeholder="root">

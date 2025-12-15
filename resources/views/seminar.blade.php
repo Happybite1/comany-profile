@@ -90,9 +90,73 @@
                     </div>
                     </div>
                 </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="workshop-card h-100">
+                    <img src="img/workshop3.jpg" class="img-fluid rounded-top">
 
+                    <div class="p-4">
+                        <h5 class="fw-bold">
+                        Blueprint CRM untuk Membuat Customer Loyal & Rajin Repeat Order
+                        </h5>
+
+                        <p class="text-muted small mt-3">
+                        70% studi kasus dan praktik. Premium OFFLINE & ONLINE workshop
+                        </p>
+
+                        <!-- LEARN MORE -->
+                        <a href="#" class="learn-more d-inline-flex align-items-center mt-2">
+                            Learn more
+                            <i class="bxr bxs-arrow-in-up-right-stroke-circle bx-rotate-90 bx-flip-horizontal" style="color:#ffc200"></i>
+                        </a>
+                    </div>
+                    </div>
                 </div>
 
+                <div class="col-lg-4 col-md-6">
+                    <div class="workshop-card h-100">
+                    <img src="img/workshop3.jpg" class="img-fluid rounded-top">
+
+                    <div class="p-4">
+                        <h5 class="fw-bold">
+                        Blueprint CRM untuk Membuat Customer Loyal & Rajin Repeat Order
+                        </h5>
+
+                        <p class="text-muted small mt-3">
+                        70% studi kasus dan praktik. Premium OFFLINE & ONLINE workshop
+                        </p>
+
+                        <!-- LEARN MORE -->
+                        <a href="#" class="learn-more d-inline-flex align-items-center mt-2">
+                            Learn more
+                            <i class="bxr bxs-arrow-in-up-right-stroke-circle bx-rotate-90 bx-flip-horizontal" style="color:#ffc200"></i>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="workshop-card h-100">
+                    <img src="img/workshop3.jpg" class="img-fluid rounded-top">
+
+                    <div class="p-4">
+                        <h5 class="fw-bold">
+                        Blueprint CRM untuk Membuat Customer Loyal & Rajin Repeat Order
+                        </h5>
+
+                        <p class="text-muted small mt-3">
+                        70% studi kasus dan praktik. Premium OFFLINE & ONLINE workshop
+                        </p>
+
+                        <!-- LEARN MORE -->
+                        <a href="#" class="learn-more d-inline-flex align-items-center mt-2">
+                            Learn more
+                            <i class="bxr bxs-arrow-in-up-right-stroke-circle bx-rotate-90 bx-flip-horizontal" style="color:#ffc200"></i>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+                </div>
             </div>
         </section>
     </div>

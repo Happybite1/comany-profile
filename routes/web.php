@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\WorkshopController;
 
 Route::get('/', function () {
     return view('main');
@@ -29,3 +30,15 @@ Route::get('/product', function () {
 Route::get('/login', function () {
     return view('login'); 
 })->name('login');
+
+Route::get('/detail-ws', function () {
+    return view('detail-ws'); 
+})->name('detail-ws');
+
+Route::get('/detail-sm', function () {
+    return view('detail-sm'); 
+})->name('detail-sm');
+
+Route::get('/dashbord', function () {
+    return view('dashbord'); 
+})->name('dashbord');
