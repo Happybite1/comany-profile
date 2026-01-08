@@ -36,7 +36,7 @@
                         </p>
 
                         <!-- LEARN MORE -->
-                        <a href="{{ route('workshop.detail', $workshop->slug) }}" class="learn-more d-inline-flex align-items-center mt-2">
+                        <a href="#" class="learn-more d-inline-flex align-items-center mt-2">
                             Learn more
                             <i class="bxr bxs-arrow-in-up-right-stroke-circle bx-rotate-90 bx-flip-horizontal" style="color:#ffc200"></i>
                         </a>

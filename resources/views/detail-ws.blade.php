@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ternak Properti</title>
+    <title>Detail Produk</title>
 
     <link rel="stylesheet" href="dist/css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
@@ -241,7 +241,6 @@
                     src="img/ws-20-21.png" 
                     alt="Business Development Masterclass"
                     class="img-fluid rounded-4 shadow"
-                    
                     >
                 </div>
 
@@ -439,22 +438,12 @@
                 <!-- KANAN : DESKRIPSI -->
                 <div class="col-lg-8">
                     <div class="workshop-profile-card p-4 p-lg-5">
-                    
-                    <small class="text-uppercase fw-semibold">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum non provident harum delectus. Nesciunt natus laborum quas reiciendis quae consectetur quibusdam temporibus quidem, modi tempora ab molestias obcaecati ullam sapiente!
-                    </small>
 
                     <h3 class="fw-bold mt-3 mb-4">Dimas Dwi Ananto</h3>
 
-                    <p>
-                        Profesional senior dengan <strong>rekam jejak memimpin transformasi lintas divisi</strong>
-                        dari ekspansi pasar, penguatan brand, hingga perubahan organisasi agar lebih adaptif.
-                        <strong>Aktif sebagai advisor, pembicara dan coach</strong> di program akselerasi bisnis.
-                    </p>
-
                     <p class="mb-0">
-                        Ibu Nancy akan <strong>membedah cara menjadikan Business Development sebagai motor
-                        pertumbuhan jangka panjang</strong>, menemukan peluang lewat riset pasar, dan
+                        Ibu Nancy akan membedah cara menjadikan Business Development sebagai motor
+                        pertumbuhan jangka panjang, menemukan peluang lewat riset pasar, dan
                         menerjemahkan strategi menjadi peta jalan bisnis yang konkret dan bisa dieksekusi.
                     </p>
 
@@ -479,22 +468,12 @@
                 <!-- KANAN : DESKRIPSI -->
                 <div class="col-lg-8">
                     <div class="workshop-profile-card p-4 p-lg-5">
-                    
-                    <small class="text-uppercase fw-semibold">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum non provident harum delectus. Nesciunt natus laborum quas reiciendis quae consectetur quibusdam temporibus quidem, modi tempora ab molestias obcaecati ullam sapiente!
-                    </small>
 
                     <h3 class="fw-bold mt-3 mb-4">Dimas Dwi Ananto</h3>
 
-                    <p>
-                        Profesional senior dengan <strong>rekam jejak memimpin transformasi lintas divisi</strong>
-                        dari ekspansi pasar, penguatan brand, hingga perubahan organisasi agar lebih adaptif.
-                        <strong>Aktif sebagai advisor, pembicara dan coach</strong> di program akselerasi bisnis.
-                    </p>
-
                     <p class="mb-0">
-                        Ibu Nancy akan <strong>membedah cara menjadikan Business Development sebagai motor
-                        pertumbuhan jangka panjang</strong>, menemukan peluang lewat riset pasar, dan
+                        Ibu Nancy akan membedah cara menjadikan Business Development sebagai motor
+                        pertumbuhan jangka panjang, menemukan peluang lewat riset pasar, dan
                         menerjemahkan strategi menjadi peta jalan bisnis yang konkret dan bisa dieksekusi.
                     </p>
 
@@ -519,22 +498,12 @@
                 <!-- KANAN : DESKRIPSI -->
                 <div class="col-lg-8">
                     <div class="workshop-profile-card p-4 p-lg-5">
-                    
-                    <small class="text-uppercase fw-semibold">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum non provident harum delectus. Nesciunt natus laborum quas reiciendis quae consectetur quibusdam temporibus quidem, modi tempora ab molestias obcaecati ullam sapiente!
-                    </small>
 
                     <h3 class="fw-bold mt-3 mb-4">Dimas Dwi Ananto</h3>
 
-                    <p>
-                        Profesional senior dengan <strong>rekam jejak memimpin transformasi lintas divisi</strong>
-                        dari ekspansi pasar, penguatan brand, hingga perubahan organisasi agar lebih adaptif.
-                        <strong>Aktif sebagai advisor, pembicara dan coach</strong> di program akselerasi bisnis.
-                    </p>
-
                     <p class="mb-0">
-                        Ibu Nancy akan <strong>membedah cara menjadikan Business Development sebagai motor
-                        pertumbuhan jangka panjang</strong>, menemukan peluang lewat riset pasar, dan
+                        Ibu Nancy akan membedah cara menjadikan Business Development sebagai motor
+                        pertumbuhan jangka panjang, menemukan peluang lewat riset pasar, dan
                         menerjemahkan strategi menjadi peta jalan bisnis yang konkret dan bisa dieksekusi.
                     </p>
 
@@ -559,22 +528,72 @@
                 <!-- KANAN : DESKRIPSI -->
                 <div class="col-lg-8">
                     <div class="workshop-profile-card p-4 p-lg-5">
-                    
-                    <small class="text-uppercase fw-semibold">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum non provident harum delectus. Nesciunt natus laborum quas reiciendis quae consectetur quibusdam temporibus quidem, modi tempora ab molestias obcaecati ullam sapiente!
-                    </small>
 
                     <h3 class="fw-bold mt-3 mb-4">Dimas Dwi Ananto</h3>
 
-                    <p>
-                        Profesional senior dengan <strong>rekam jejak memimpin transformasi lintas divisi</strong>
-                        dari ekspansi pasar, penguatan brand, hingga perubahan organisasi agar lebih adaptif.
-                        <strong>Aktif sebagai advisor, pembicara dan coach</strong> di program akselerasi bisnis.
+                    <p class="mb-0">
+                        Ibu Nancy akan membedah cara menjadikan Business Development sebagai motor
+                        pertumbuhan jangka panjang, menemukan peluang lewat riset pasar, dan
+                        menerjemahkan strategi menjadi peta jalan bisnis yang konkret dan bisa dieksekusi.
                     </p>
 
+                    </div>
+                </div>
+
+                </div>
+
+                <div class="row align-items-center g-4 pt-5">
+
+                <!-- KIRI : FOTO -->
+                <div class="col-lg-4 text-center">
+                    <div class="workshop-profile-photo mx-auto">
+                    <img 
+                        src="img/pak-dimas.png" 
+                        alt="Dimas Dwi Ananto"
+                        class="img-fluid"
+                    >
+                    </div>
+                </div>
+
+                <!-- KANAN : DESKRIPSI -->
+                <div class="col-lg-8">
+                    <div class="workshop-profile-card p-4 p-lg-5">
+
+                    <h3 class="fw-bold mt-3 mb-4">Dimas Dwi Ananto</h3>
+
                     <p class="mb-0">
-                        Ibu Nancy akan <strong>membedah cara menjadikan Business Development sebagai motor
-                        pertumbuhan jangka panjang</strong>, menemukan peluang lewat riset pasar, dan
+                        Ibu Nancy akan membedah cara menjadikan Business Development sebagai motor
+                        pertumbuhan jangka panjang, menemukan peluang lewat riset pasar, dan
+                        menerjemahkan strategi menjadi peta jalan bisnis yang konkret dan bisa dieksekusi.
+                    </p>
+
+                    </div>
+                </div>
+
+                </div>
+
+                <div class="row align-items-center g-4 pt-5">
+
+                <!-- KIRI : FOTO -->
+                <div class="col-lg-4 text-center">
+                    <div class="workshop-profile-photo mx-auto">
+                    <img 
+                        src="img/pak-dimas.png" 
+                        alt="Dimas Dwi Ananto"
+                        class="img-fluid"
+                    >
+                    </div>
+                </div>
+
+                <!-- KANAN : DESKRIPSI -->
+                <div class="col-lg-8">
+                    <div class="workshop-profile-card p-4 p-lg-5">
+
+                    <h3 class="fw-bold mt-3 mb-4">Dimas Dwi Ananto</h3>
+
+                    <p class="mb-0">
+                        Ibu Nancy akan membedah cara menjadikan Business Development sebagai motor
+                        pertumbuhan jangka panjang, menemukan peluang lewat riset pasar, dan
                         menerjemahkan strategi menjadi peta jalan bisnis yang konkret dan bisa dieksekusi.
                     </p>
 
@@ -608,9 +627,9 @@
                         <ul class="list-unstyled paket-list mb-4">
                             <li><i class="bi bi-check-circle-fill text-success me-2"></i> Mentoring 1 Tahun (Exclusive)</li>
                             <li><i class="bi bi-check-circle-fill text-success me-2"></i> Tanya Jawab & Praktek Lapangan</li>
-                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Sertifikasi BNSP (CRA) senilai <strong>3.500.000</strong></li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> Sertifikasi BNSP (CRA) senilai 3.500.000</li>
                             <li><i class="bi bi-check-circle-fill text-success me-2"></i> Akses barisan depan</li>
-                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> 80++ Dokumen Properti senilai <strong>58.500.000</strong></li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> 80++ Dokumen Properti senilai 58.500.000</li>
                             <li><i class="bi bi-check-circle-fill text-success me-2"></i> Group WhatsApp Platinum Exclusive</li>
                             <li><i class="bi bi-check-circle-fill text-success me-2"></i> Komunitas Ternak Properti Nasional</li>
                             <li><i class="bi bi-check-circle-fill text-success me-2"></i> List Asset Lelang & Cessie Terupdate</li>
@@ -656,7 +675,7 @@
                         <ul class="list-unstyled paket-list mb-4">
                             <li><i class="bi bi-check-circle-fill text-success me-2"></i> Mentoring 6 Bulan (Exclusive)</li>
                             <li><i class="bi bi-check-circle-fill text-success me-2"></i> Tanya Jawab & Praktek Lapangan</li>
-                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> 80++ Dokumen Properti senilai <strong>58.500.000</strong></li>
+                            <li><i class="bi bi-check-circle-fill text-success me-2"></i> 80++ Dokumen Properti senilai 58.500.000</li>
                             <li><i class="bi bi-check-circle-fill text-success me-2"></i> Group WhatsApp Exclusive</li>
                             <li><i class="bi bi-check-circle-fill text-success me-2"></i> Komunitas Ternak Properti Nasional</li>
                             <li><i class="bi bi-check-circle-fill text-success me-2"></i> List Asset Lelang & Cessie Terupdate</li>

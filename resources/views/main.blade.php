@@ -420,6 +420,8 @@
                     <div class="col-12">
                         <div class="video-thumb position-relative" data-bs-toggle="modal" data-bs-target="#videoModal2">
                             <img src="https://img.youtube.com/vi/ylgAL3L2hG0/maxresdefault.jpg" class="img-fluid rounded">
+                            <h2 class="text-left mb-4">DAMPAK YANG LUAR BIASA BAGI MEREKA</h2>
+                            <p class="text-left mb-5">Selami perkataan tulus para alumni</p>
                             <div class="play-btn">
                                 <i class="bi bi-play-circle-fill"></i>
                             </div>
@@ -539,58 +541,58 @@
                 <!-- Logo Grid -->
                 <div class="row justify-content-center g-4 mt-4">
                 <div class="col-4 col-sm-3 col-md-2">
-                    <img src="img/logo-icmi.png" class="img-fluid partner-logo">
+                    <img src="img/logo-icmi.png" class="img-logo partner-logo">
                 </div>
                 <div class="col-4 col-sm-3 col-md-2">
-                    <img src="img/Logo_HIPMI.png" class="img-fluid partner-logo">
+                    <img src="img/Logo_HIPMI.png" class="img-logo partner-logo">
                 </div>
                 <div class="col-4 col-sm-3 col-md-2">
-                    <img src="img/logo-aksarasemesta.png" class="img-fluid partner-logo">
+                    <img src="img/logo-aksarasemesta.png" class="img-logo partner-logo">
                 </div>
                 <div class="col-4 col-sm-3 col-md-2">
-                    <img src="img/logo-divimultimedia.jpg" class="img-fluid partner-logo">
+                    <img src="img/logo-divimultimedia.jpg" class="img-logo partner-logo">
                 </div>
                 <div class="col-4 col-sm-3 col-md-2">
-                    <img src="img/logo-ibt.png" class="img-fluid partner-logo">
+                    <img src="img/logo-ibt.png" class="img-logo partner-logo">
                 </div>
                 <div class="col-4 col-sm-3 col-md-2">
-                    <img src="img/logo-conversion.png" class="img-fluid partner-logo">
+                    <img src="img/logo-conversion.png" class="img-logo partner-logo">
                 </div>
                 <div class="col-4 col-sm-3 col-md-2">
-                    <img src="img/logo-kasisolusi2.png" class="img-fluid partner-logo">
+                    <img src="img/logo-kasisolusi2.png" class="img-logo partner-logo">
                 </div>
                 <div class="col-4 col-sm-3 col-md-2">
-                    <img src="img/logo-kavacare.jpg" class="img-fluid partner-logo">
+                    <img src="img/logo-kavacare.jpg" class="img-logo partner-logo">
                 </div>
                 <div class="col-4 col-sm-3 col-md-2">
-                    <img src="img/logo-pln.jpg" class="img-fluid partner-logo">
+                    <img src="img/logo-pln.jpg" class="img-logo partner-logo">
                 </div>
                 <div class="col-4 col-sm-3 col-md-2">
-                    <img src="img/logo-tdw.jpg" class="img-fluid partner-logo">
+                    <img src="img/logo-tdw.jpg" class="img-logo partner-logo">
                 </div>
                 <div class="col-4 col-sm-3 col-md-2">
-                    <img src="img/logo-quods.png" class="img-fluid partner-logo">
+                    <img src="img/logo-quods.png" class="img-logo partner-logo">
                 </div>
                 <div class="col-4 col-sm-3 col-md-2">
-                    <img src="img/logo-orderonline.png" class="img-fluid partner-logo">
+                    <img src="img/logo-orderonline.png" class="img-logo partner-logo">
                 </div>
                 <div class="col-4 col-sm-3 col-md-2">
-                    <img src="img/logo-tirtayasa.png" class="img-fluid partner-logo">
+                    <img src="img/logo-tirtayasa.png" class="img-logo partner-logo">
                 </div>
                 <div class="col-4 col-sm-3 col-md-2">
-                    <img src="img/logo-tujuhub.png" class="img-fluid partner-logo">
+                    <img src="img/logo-tujuhub.png" class="img-logo partner-logo">
                 </div>
                 <div class="col-4 col-sm-3 col-md-2">
-                    <img src="img/logo-woowa.png" class="img-fluid partner-logo">
+                    <img src="img/logo-woowa.png" class="img-logo partner-logo">
                 </div>
                 <div class="col-4 col-sm-3 col-md-2">
-                    <img src="img/logo-laruno2.png" class="img-fluid partner-logo">
+                    <img src="img/logo-laruno2.png" class="img-logo partner-logo">
                 </div>
                 <div class="col-4 col-sm-3 col-md-2">
-                    <img src="img/logo-muvi2.png" class="img-fluid partner-logo">
+                    <img src="img/logo-muvi2.png" class="img-logo partner-logo">
                 </div>
                 <div class="col-4 col-sm-3 col-md-2">
-                    <img src="img/logo-interskill.png" class="img-fluid partner-logo">
+                    <img src="img/logo-interskill.png" class="img-logo partner-logo">
                 </div> 
                 <!-- Tambahkan logo lainnya -->
                 </div>

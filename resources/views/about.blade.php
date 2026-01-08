@@ -142,7 +142,7 @@
 
         <section class="profile-section py-5">
             <div class="container">
-                <h1 class="fw-bold text-center mb-5"><span>CFOU</span></h1>
+                <h1 class="fw-bold text-center mb-5"><span>CEO</span></h1>
 
                 <div class="row align-items-center">
                     

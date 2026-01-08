@@ -46,7 +46,7 @@
     </div>
 
     <!-- Footer Bottom -->
-    <div class="d-flex justify-content-between align-items-center mt-4 flex-wrap">
+    <div class="copyright-tp d-flex justify-content-between align-items-center mt-4 flex-wrap">
       <p class="copyright m-0">© 2025 Ternak Properti. All Rights Reserved</p>
 
       <div class="social-icons">

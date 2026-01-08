@@ -17,7 +17,7 @@
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <li><a class="dropdown-item" href="{{ route('about') }}">Siapa Kami</a></li>
-            <li><a class="dropdown-item" href="{{ route('speakers') }}">Pemateri</a></li>
+            <li><a class="dropdown-item" href="{{ route('list-pemateri') }}">Pemateri</a></li>
             <!-- <li><hr class="dropdown-divider"></li> -->
           </ul>
         </li>
@@ -32,7 +32,7 @@
             <!-- <li><hr class="dropdown-divider"></li> -->
           </ul>
         </li>
-        <li class="nav-item nav-a"><a href="#" class="nav-link">Blog</a></li>
+        <li class="nav-item nav-a"><a href="{{ route('blog') }}" class="nav-link">Blog</a></li>
       </ul>
     </div>
   </div>

@@ -13,10 +13,8 @@ return new class extends Migration
     {
         Schema::create('admins', function (Blueprint $table) {
             $table->increments('id_admin');
-            $table->string('username')->unique();
-            $table->string('password');
-            $table->rememberToken();
-            $table->timestamps();
+            $table->string('username', 100)->unique();
+            $table->string('password', 60);
         });
     }
 };

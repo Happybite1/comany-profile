@@ -56,16 +56,17 @@
                 <p class="text-muted">Silakan login untuk melanjutkan</p>
             </div>
 
-            <form method="POST">
+            <form method="POST" action="/login">
+                @csrf
                 <div class="mb-3">
                     <label class="form-label">Username</label>
-                    <input type="text" class="form-control form-control-lg" placeholder="root">
+                    <input type="text" class="form-control form-control-lg" placeholder="root" name="username">
                 </div>
 
                 <div class="mb-3">
                     <label class="form-label">Password</label>
                     <div class="input-group">
-                        <input type="password" id="password" class="form-control form-control-lg" placeholder="password">
+                        <input type="password" id="password" class="form-control form-control-lg" placeholder="password" name="password">
                         <button class="btn btn-outline-secondary" type="button" onclick="togglePassword()">
                             <i id="icon" class="bi bi-eye"></i>
                         </button>
@@ -80,7 +81,7 @@
                     <a href="#" class="text-decoration-none">Lupa password?</a>
                 </div>
 
-                <button class="btn btn-warning w-100 btn-lg">
+                <button class="btn btn-warning w-100 btn-lg" type="submit">
                     Login
                 </button>
             </form>

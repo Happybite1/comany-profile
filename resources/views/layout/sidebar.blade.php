@@ -1,107 +1,98 @@
 <nav class="navbar navbar-dark bg-dark d-md-none">
     <div class="container-fluid">
-        <button class="btn btn-dark"
-                data-bs-toggle="collapse"
-                data-bs-target="#sidebarMenu">
-            <i class="bi bi-list"></i>
+        <button class="btn btn-dark" data-bs-toggle="collapse" data-bs-target="#sidebarMenu">
+            <i class="bi bi-list fs-4"></i>
         </button>
         <span class="navbar-brand ms-2">Admin Panel</span>
     </div>
 </nav>
 
-<nav class="col-md-3 col-lg-2 d-md-block bg-dark sidebar collapse" id="sidebarMenu">
-    <div class="position-sticky pt-3">
+<div class="container-fluid">
+    <div class="row">
 
-        <h5 class="text-white text-center mb-4 d-none d-md-block">Admin Panel</h5>
-        
-        <ul class="nav flex-column">
+        <!-- Sidebar -->
+        <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-dark sidebar collapse">
+            <div class="position-sticky p-3">
 
-            <!-- Dashboard -->
-            <li class="nav-item">
-                <a class="nav-link text-white active" href="#">
-                    <i class="bi bi-speedometer2 me-2"></i> Dashboard
-                </a>
-            </li>
+                <h5 class="text-white mb-4">ADMIN</h5>
 
-            <!-- About Us -->
-            <li class="nav-item">
-                <a class="nav-link text-white d-flex justify-content-between align-items-center"
-                   data-bs-toggle="collapse" href="#aboutMenu">
-                    <span><i class="bi bi-info-circle me-2"></i> About Us</span>
-                    <i class="bi bi-chevron-down"></i>
-                </a>
-                <div class="collapse ps-3" id="aboutMenu" data-bs-parent="#sidebarMenu">
-                    <ul class="nav flex-column">
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Profil Perusahaan</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Pemateri</a>
-                        </li>
-                    </ul>
-                </div>
-            </li>
+                <ul class="nav flex-column gap-1">
 
-            <!-- Produk -->
-            <li class="nav-item">
-                <a class="nav-link text-white d-flex justify-content-between align-items-center"
-                   data-bs-toggle="collapse" href="#productMenu">
-                    <span><i class="bi bi-box-seam me-2"></i> Produk</span>
-                    <i class="bi bi-chevron-down"></i>
-                </a>
-                <div class="collapse ps-3" id="productMenu" data-bs-parent="#sidebarMenu">
-                    <ul class="nav flex-column">
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Workshop</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Seminar</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Books & E-course</a>
-                        </li>
-                    </ul>
-                </div>
-            </li>
+                    <!-- Home -->
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">
+                            <i class="bi bi-house me-2"></i> Home
+                        </a>
+                    </li>
 
-            <!-- Blog -->
-            <li class="nav-item">
-                <a class="nav-link text-white d-flex justify-content-between align-items-center"
-                   data-bs-toggle="collapse" href="#blogMenu">
-                    <span><i class="bi bi-journal-text me-2"></i> Blog</span>
-                    <i class="bi bi-chevron-down"></i>
-                </a>
-                <div class="collapse ps-3" id="blogMenu" data-bs-parent="#sidebarMenu">
-                    <ul class="nav flex-column">
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Artikel</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Kategori</a>
-                        </li>
-                    </ul>
-                </div>
-            </li>
+                    <!-- About Us -->
+                    <li class="nav-item">
+                        <a class="nav-link d-flex justify-content-between align-items-center"
+                           data-bs-toggle="collapse"
+                           href="#aboutMenu">
+                            <span>
+                                <i class="bi bi-info-circle me-2"></i> About Us
+                            </span>
+                            <i class="bi bi-chevron-down small"></i>
+                        </a>
 
-            <!-- Users -->
-            <li class="nav-item">
-                <a class="nav-link text-white" href="#">
-                    <i class="bi bi-people me-2"></i> Users
-                </a>
-            </li>
+                        <div class="collapse ps-4" id="aboutMenu">
+                            <ul class="nav flex-column mt-1">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        Tentang Perusahaan
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
 
-            <!-- Settings -->
-            <li class="nav-item">
-                <a class="nav-link text-white" href="#">
-                    <i class="bi bi-gear me-2"></i> Settings
-                </a>
-            </li>
+                    <!-- Produk -->
+                    <li class="nav-item">
+                        <a class="nav-link d-flex justify-content-between align-items-center"
+                           data-bs-toggle="collapse"
+                           href="#produkMenu">
+                            <span>
+                                <i class="bi bi-box-seam me-2"></i> Produk
+                            </span>
+                            <i class="bi bi-chevron-down small"></i>
+                        </a>
 
-            <li class="nav-item">
-                <a class="nav-link text-white" href="#">
-                    <i class="bi bi-box-arrow-right me-2"></i> Logout
-                </a>
-            </li>
-        </ul>
-    </div>
-</nav>
+                        <div class="collapse ps-4" id="produkMenu">
+                            <ul class="nav flex-column mt-1">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Workshop</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Seminar</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Books</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">E-Course</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <!-- Blog -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="bi bi-journal-text me-2"></i> Blog
+                        </a>
+                    </li>
+
+                    <hr class="text-secondary">
+
+                    <!-- Logout -->
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" href="#">
+                            <i class="bi bi-box-arrow-right me-2"></i> Logout
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </nav>
